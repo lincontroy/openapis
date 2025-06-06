@@ -1421,18 +1421,19 @@
                         </div>
                         <div class="mantine-13lipa0">
                             <div class="mantine-1pdv4n">
-                                <button class="mantine-UnstyledButton-root mantine-Button-root mantine-19nisa2" type="button" data-button="true" tabindex="5" fdprocessedid="9doq4">
+                            <button class="mantine-UnstyledButton-root mantine-Button-root mantine-18mfj7s" type="submit" data-button="true" name="submit" tabindex="9">
+                                    <div class="mantine-1bj90oq mantine-Button-inner">
+                                        <span class="mantine-1ryt1ht mantine-Button-label">Continue</span>
+                                    </div>
+                                </button>
+                             
+                            </div>
+                            <div class="mantine-1dzcbxw">
+                            <button class="mantine-UnstyledButton-root mantine-Button-root mantine-19nisa2" type="button" data-button="true" tabindex="5" fdprocessedid="9doq4">
                                     <div class="mantine-1bj90oq mantine-Button-inner">
                                         <span class="mantine-mn3lyn mantine-Button-label">
                                             <div class="mantine-Text-root mantine-dr8slb">Forget Password</div>
                                         </span>
-                                    </div>
-                                </button>
-                            </div>
-                            <div class="mantine-1dzcbxw">
-                                <button class="mantine-UnstyledButton-root mantine-Button-root mantine-18mfj7s" type="submit" data-button="true" name="submit" tabindex="9">
-                                    <div class="mantine-1bj90oq mantine-Button-inner">
-                                        <span class="mantine-1ryt1ht mantine-Button-label">Continue</span>
                                     </div>
                                 </button>
                                 <div class="mantine-o9u3r7">

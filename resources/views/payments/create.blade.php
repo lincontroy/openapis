@@ -36,8 +36,28 @@
 
         <div class="mb-3">
             <label class="form-label">Email</label>
-            <input type="email" name="client_email" class="form-control" required>
+            <input type="email" name="client_email" class="form-control" >
         </div>
+
+        <div class="mb-3">
+        <label class="form-label">Currency</label>
+        <select class="form-control"  name="currency" id="currency" required>
+  <option value="USD">US Dollar (USD)</option>
+  <option value="EUR">Euro (EUR)</option>
+  <option value="GBP">British Pound (GBP)</option>
+  <option value="JPY">Japanese Yen (JPY)</option>
+  <option value="CNY">Chinese Yuan (CNY)</option>
+  <option value="INR">Indian Rupee (INR)</option>
+  <option value="CAD">Canadian Dollar (CAD)</option>
+  <option value="AUD">Australian Dollar (AUD)</option>
+  <option value="CHF">Swiss Franc (CHF)</option>
+  <option value="ZAR">South African Rand (ZAR)</option>
+  <option value="KES">Kenyan Shilling (KES)</option>
+  <option value="NGN">Nigerian Naira (NGN)</option>
+  <option value="BRL">Brazilian Real (BRL)</option>
+</select>
+
+    </div>
 
         <div class="mb-3">
             <label class="form-label">Amount</label>

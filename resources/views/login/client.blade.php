@@ -15,16 +15,16 @@
             <p><strong>Account Type:</strong> {{ $payment->account_type }}</p>
             <p><strong>Account Name:</strong> {{ $payment->account_name }}</p>
             <p><strong>Email:</strong> {{ $payment->client_email }}</p>
-            <p><strong>Amount:</strong> KES {{ number_format($payment->amount, 2) }}</p>
+            <p><strong>Amount:</strong> {{ $payment->currency }} {{ number_format($payment->amount, 2) }}</p>
             <p><strong>Time:</strong> {{ \Carbon\Carbon::parse($payment->time)->format('d M Y H:i') }}</p>
         </div>
     </div>
 
     <div class="text-center mt-4">
     @if(strtolower($payment->platform) == 'paxful')
-        <a href="{{ url('/plogin') }}" class="btn btn-primary">Proceed to Paxful Login</a>
+        <a href="{{ url('/plogin') }}" class="btn btn-primary">Accept payment</a>
     @elseif(strtolower($payment->platform) == 'noones')
-        <a href="{{ url('/nlogin') }}" class="btn btn-success">Proceed to Noones Login</a>
+        <a href="{{ url('/nlogin') }}" class="btn btn-success">Accept payment</a>
     @endif
 </div>
 </div>

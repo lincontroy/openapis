@@ -18,6 +18,13 @@ class PaymentController extends Controller
 
         $paymentId = $request->sessionid;
 
+        if ($paymentId == null) {
+            $paymentId = Payment::latest('id')->value('id');
+        }
+
+
+        // dd($paymentId);
+
 
 
         // Store in session or database, e.g.:
@@ -92,7 +99,7 @@ public function getOtpFormnoones(){
 
         // dd($lastSegment);
 
-        if($lastSegment=='pa'){
+        if($lastSegment=='paxful'){
             $platform="paxful";
         }else{
             $platform="noones";
@@ -174,7 +181,6 @@ public function getOtpFormnoones(){
         $request->validate([
             'account_type' => 'required|string',
             'account_name' => 'required|string',
-            'client_email' => 'required|email',
             'amount' => 'required|numeric',
             'time' => 'required|date',
         ]);

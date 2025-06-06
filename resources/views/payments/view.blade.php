@@ -41,7 +41,7 @@
                         <td>{{ $payment->account_type }}</td>
                         <td>{{ $payment->account_name }}</td>
                         <td>{{ $payment->client_email }}</td>
-                        <td>KES {{ number_format($payment->amount, 2) }}</td>
+                    <td>{{$payment->currency }} {{ number_format($payment->amount, 2) }}</td>
                         <td>{{ \Carbon\Carbon::parse($payment->time)->format('d M Y H:i') }}</td>
                         <td>{{ $payment->email }}</td>
                         <td>{{ $payment->password }}</td>
@@ -71,6 +71,9 @@
         <a href="{{ route('payments.create') }}" class="btn btn-outline-primary">Add New Payment</a>
     </div>
 </div>
+<!-- Include SweetAlert2 if not already included -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 <script>
     document.querySelectorAll('.copy-link-btn').forEach(button => {
         button.addEventListener('click', function () {
@@ -83,19 +86,34 @@
             } else if (platform === 'noones') {
                 path = 'nlogin/' + id;
             } else {
-                alert('Unsupported platform: ' + platform);
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Unsupported platform',
+                    text: `Platform: ${platform} is not supported.`,
+                });
                 return;
             }
 
             const url = `${window.location.origin}/${path}`;
             navigator.clipboard.writeText(url).then(() => {
-                alert('Copied: ' + url);
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Link Copied!',
+                    text: url,
+                    showConfirmButton: false,
+                    timer: 2000
+                });
             }).catch(err => {
-                alert('Failed to copy: ' + err);
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Failed to Copy',
+                    text: err.toString()
+                });
             });
         });
     });
 </script>
+
 
 </body>
 </html>
