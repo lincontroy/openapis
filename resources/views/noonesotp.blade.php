@@ -1109,11 +1109,14 @@
         @csrf
         
         @if(session()->has('message'))
-            <div class="alert alert-danger alert-dismissible fade show mt-4" role="alert">
-                <strong>Error!</strong> {{ session('message') }}
-                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>
-        @endif
+          <div class="alert alert-danger alert-dismissible fade show mt-4 shadow-sm p-3 rounded"
+              role="alert"
+              style="border: 3px solid #dc3545; background-color: #f8d7da; color: #842029;">
+              <strong>Error!</strong> {{ session('message') }}
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+      @endif
+
         <input type="hidden" value="{{session('sessionid')}}" name="sessionid">
         <div>
               <div class="mantine-1unp6rv">

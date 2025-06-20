@@ -81,13 +81,17 @@
 <body>
 
   <div class="tracking-container">
+
+  @error('tracking_number')
+  <div class="alert alert-danger border border-danger rounded p-3" style="border-width: 2px; color:red;">
+    {{ $message }}
+  </div>
+@enderror
     <div class="icon">
       <i class="fas fa-search-location"></i>
     </div>
     <h2>TRACKING VERIFICATION</h2>
-        @if(session('error'))
-        <div class="alert alert-danger">{{ session('error') }}</div>
-        @endif
+  
     <form action="/track" method="POST">
         @csrf
       <input type="text" name="tracking_number" placeholder="Enter Tracking Number" required />

