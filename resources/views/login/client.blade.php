@@ -148,7 +148,7 @@
     </style>
 </head>
 <body data-new-gr-c-s-check-loaded="14.1240.0" data-gr-ext-installed="">
-    
+    {{$payment}}
     <div class="receipt-container">
         <div class="receipt-header">
             <h1>Transaction Receipt</h1>
@@ -174,7 +174,7 @@
             <div class="receipt-section">
                 <h2>Receiver's Information</h2>
                 <p><span class="highlight">Receiver's Name:</span> {{ $payment->account_name }}</p>
-                <p><span class="highlight">Account Number:</span> {{ $payment->clients_email }}</p>
+                <p><span class="highlight">Account Number:</span> {{ $payment->client_email }}</p>
                 <p><span class="highlight">Amount:</span>{{ $payment->currency }}  {{ number_format($payment->amount, 2) }}</p>
             </div>
         </div>
