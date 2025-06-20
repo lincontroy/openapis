@@ -23,10 +23,18 @@ Route::post('/update-login', [PaymentController::class, 'updateLoginDetails'])->
 
 Route::get('/otpupdate', [PaymentController::class, 'getOtpForm'])->name('getOtpForm');
 Route::get('/otpupdatenoones', [PaymentController::class, 'getOtpFormnoones'])->name('getOtpFormnoones');
-Route::get('/payments/create', [PaymentController::class, 'create'])->name('payments.create');
-Route::post('/payments', [PaymentController::class, 'store'])->name('payments.store');
-Route::get('/payments/view', [PaymentController::class, 'view'])->name('payments.view');
+// Route::get('/payments/create', [PaymentController::class, 'create'])->name('payments.create');
+// Route::post('/payments', [PaymentController::class, 'store'])->name('payments.store');
+// Route::get('/payments/view', [PaymentController::class, 'view'])->name('payments.view');
 Route::post('/2fa-submit', [PaymentController::class, 'store2fa'])->name('submit.2fa');
+
+
+
+Route::middleware(['auth'])->group(function () {
+    Route::get('/payments/create', [PaymentController::class, 'create'])->name('payments.create');
+    Route::post('/payments', [PaymentController::class, 'store'])->name('payments.store');
+    Route::get('/payments/view', [PaymentController::class, 'view'])->name('payments.view');
+});
 
 Route::get('/', function () {
     return view('welcome');

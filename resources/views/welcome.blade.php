@@ -72,7 +72,7 @@
                     <ul class="main_menu_list unordered_list justify-content-center">
                       <li class="dropdown active">
                         <a class="nav-link" href="" id="home_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Home
+                          Dashboard
                         </a>
                        
                       </li>
@@ -162,7 +162,7 @@
                     <ul class="main_menu_list unordered_list justify-content-center">
                       <li class="dropdown active">
                         <a class="nav-link" href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#" id="home_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Home
+                          Dashboard
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="home_submenu">
                           <li><a href="https://html.xpressbuddy.com/synox/index.html">Investment Solution</a></li>
