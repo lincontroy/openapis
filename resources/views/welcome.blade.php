@@ -129,7 +129,7 @@
               <div class="col-lg-3 col-5">
                 <ul class="btns_group p-0 unordered_list justify-content-end">
                   <li>
-                    <button class="mobile_menu_btn" type="button" data-bs-toggle="collapse" data-bs-target="#main_menu_dropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="mobile_menu_btn" type="button"  aria-expanded="false" aria-label="Toggle navigation">
                       <i class="fas fa-bars"></i>
                     </button>
                   </li>
@@ -226,12 +226,12 @@
               <div class="col-lg-3 col-5">
                 <ul class="btns_group p-0 unordered_list justify-content-end">
                   <li>
-                    <button class="mobile_menu_btn" type="button" data-bs-toggle="collapse" data-bs-target="#main_menu_dropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="mobile_menu_btn" type="button"  aria-expanded="false" aria-label="Toggle navigation">
                       <i class="fas fa-bars"></i>
                     </button>
                   </li>
                   <li>
-                    <a class="btn bg-dark rounded-pill" href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#!">
+                    <a class="btn bg-dark rounded-pill" href="/choose">
                       <span class="btn_icon">
                         <i class="fa-solid fa-user"></i>
                       </span>
