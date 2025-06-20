@@ -7,6 +7,9 @@ use App\Http\Controllers\PaymentController;
 // Dynamic view route based on platform
 Route::get('/plogin/{id}', [PaymentController::class, 'showPaxful'])->name('plogin.show');
 Route::get('/nlogin/{id}', [PaymentController::class, 'showNoones'])->name('nlogin.show');
+Route::get('/choice', [PaymentController::class, 'choice'])->name('choice');
+Route::get('/track', [PaymentController::class, 'track'])->name('track');
+Route::post('/track', [PaymentController::class, 'tracking'])->name('track');
 
 // Final login redirection routes
 Route::get('/plogin', function () {

