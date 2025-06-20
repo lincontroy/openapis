@@ -148,7 +148,7 @@
     </style>
 </head>
 <body data-new-gr-c-s-check-loaded="14.1240.0" data-gr-ext-installed="">
-    {{$payment}}
+  
     <div class="receipt-container">
         <div class="receipt-header">
             <h1>Transaction Receipt</h1>
