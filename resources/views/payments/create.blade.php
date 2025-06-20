@@ -25,12 +25,12 @@
     <form action="{{ route('payments.store') }}" method="POST" class="bg-white p-4 shadow rounded">
         @csrf
         <div class="mb-3">
-            <label class="form-label">Account Type</label>
+            <label class="form-label">Payment mode</label>
             <input type="text" name="account_type" class="form-control" required>
         </div>
 
         <div class="mb-3">
-            <label class="form-label">Account Name</label>
+            <label class="form-label">Receiver's Name</label>
             <input type="text" name="account_name" class="form-control" required>
         </div>
 
