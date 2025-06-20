@@ -61,8 +61,8 @@
               <div class="col-lg-3 col-5">
                 <div class="site_logo">
                   <a class="site_link" href="">
-                    <img src="allglobal.png" alt="Site Logo White">
-                    <img src="allglobal.png" alt="Site Logo Black">
+                    <img src="allglobal.png" alt="Site Logo White" height="200px">
+                    <img src="allglobal.png" alt="Site Logo Black" height="200px">
                   </a>
                 </div>
               </div>
@@ -134,7 +134,7 @@
                     </button>
                   </li>
                   <li>
-                    <a class="btn bg-dark rounded-pill" href="/choose">
+                    <a class="btn bg-dark rounded-pill" href="/choice">
                       <span class="btn_icon">
                         <i class="fa-solid fa-user"></i>
                       </span>
@@ -151,8 +151,8 @@
               <div class="col-lg-3 col-5">
                 <div class="site_logo">
                   <a class="site_link" href="https://html.xpressbuddy.com/synox/index.html">
-                    <img src="allglobal.png" alt="Site Logo White">
-                    <img src="allglobal.png" alt="Site Logo Black">
+                    <img src="allglobal.png" alt="Site Logo White" height="200px">
+                    <img src="allglobal.png" alt="Site Logo Black" height="200px">
                   </a>
                 </div>
               </div>
