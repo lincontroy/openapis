@@ -61,8 +61,8 @@
               <div class="col-lg-3 col-5">
                 <div class="site_logo">
                   <a class="site_link" href="">
-                    <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/is_logo.svg" alt="Site Logo White">
-                    <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/site_logo_black.svg" alt="Site Logo Black">
+                    <img src="allglobal.png" alt="Site Logo White">
+                    <img src="allglobal.png" alt="Site Logo Black">
                   </a>
                 </div>
               </div>
@@ -134,7 +134,7 @@
                     </button>
                   </li>
                   <li>
-                    <a class="btn bg-dark rounded-pill" href="https://html.xpressbuddy.com/synox/index_payment_solutions.html#!">
+                    <a class="btn bg-dark rounded-pill" href="/choose">
                       <span class="btn_icon">
                         <i class="fa-solid fa-user"></i>
                       </span>
@@ -151,8 +151,8 @@
               <div class="col-lg-3 col-5">
                 <div class="site_logo">
                   <a class="site_link" href="https://html.xpressbuddy.com/synox/index.html">
-                    <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/is_logo.svg" alt="Site Logo White">
-                    <img src="./Payment Solutions – Synox – Finance &amp; Consulting Site Template._files/site_logo_black.svg" alt="Site Logo Black">
+                    <img src="allglobal.png" alt="Site Logo White">
+                    <img src="allglobal.png" alt="Site Logo Black">
                   </a>
                 </div>
               </div>
@@ -227,7 +227,7 @@
                 <ul class="btns_group p-0 unordered_list justify-content-end">
                   <li>
                     <button class="mobile_menu_btn" type="button" data-bs-toggle="collapse" data-bs-target="#main_menu_dropdown" aria-expanded="false" aria-label="Toggle navigation">
-                      <i class="far fa-bars"></i>
+                      <i class="fas fa-bars"></i>
                     </button>
                   </li>
                   <li>
